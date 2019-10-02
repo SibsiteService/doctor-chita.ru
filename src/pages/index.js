@@ -51,69 +51,93 @@ class Index extends React.Component {
             <ul className="features">
               <li>
               <span className="image">
+              <a href="/uzi">  
                 <img src={uzi_pic} alt="" />
+              </a>
               </span>
+              <Link to="/uzi">
                 <h3>УЗИ</h3>
+              </Link>  
               </li>
               <li>
               <span className="image">
+                <a href="/ginekologia"> 
                 <img src={gin_pic} alt="" />
+                </a>
               </span>
+                <Link to="/ginekologia">
                 <h3>ГИНЕКОЛОГИЯ</h3>
+                </Link>  
               </li>
               <li>
               <span className="image">
-              <a href="/generic"> 
+              <a href="/beremennost"> 
                 <img src={ber_pic} alt="" />
               </a>   
               </span>
-              <Link to="/generic">
+              <Link to="/beremennost">
                 <h3>ПЛАНИРОВАНИЕ БЕРЕМЕННОСТИ</h3>
               </Link>
               </li>
               <li>
               <span className="image">
+                <a href="/endokrinologia">
                 <img src={end_pic} alt="" />
+                </a>
               </span>
+                <Link to="/endokrinologia">
                 <h3>ЭНДОКРИНОЛОГИЯ В ГИНЕКОЛОГИИ</h3>
+                </Link>
               </li>
               <li>
               <span className="image">
+              <a href="/dnk">
                 <img src={dnk_pic} alt="" />
+              </a>
               </span>
+                <Link to="/dnk">
                 <h3>ДНК АНАЛИЗЫ НА УСТАНОВЛЕНИЕ ОТЦОВСТВА</h3>
+                </Link>
               </li>
               <li>
               <span className="image">
-              <a href="/generic"> 
+              <a href="/preryvanie-beremennosti"> 
                 <img src={abo_pic} alt="" />
               </a>   
               </span>
-              <Link to="/generic">
+              <Link to="/preryvanie-beremennosti">
                 <h3>МЕДИКАМЕНТОЗНОЕ ПРЕРЫВАНИЕ БЕРЕМЕННОСТИ</h3>
               </Link>
               </li>
               <li>
               <span className="image">
-              <a href="/generic">
+              <a href="/check-up">
                 <img src={che_pic} alt="" />
               </a> 
               </span>
-              <Link to="/generic">
+              <Link to="/check-up">
                 <h3>КОМПЛЕКСНЫЕ ЧЕК-АП ОБСЛЕДОВАНИЯ</h3>
               </Link>
               </li>
               <li>
               <span className="image">
+                <a href="/urologia">
                 <img src={uro_pic} alt="" />
+                </a>              
               </span>
+                <Link to="/urologia">
                 <h3>УРОЛОГИЯ</h3>
+                </Link>
               </li>
               <li>
               <span className="image">
+                <a href="/analisy">
                 <img src={ana_pic} alt="" />
+                </a>
               </span>
+                <Link to="/analisy">
                 <h3>МЕДИЦИНСКИЕ АНАЛИЗЫ</h3>
+                </Link>
               </li>
             </ul>
             
