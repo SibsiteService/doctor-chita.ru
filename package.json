@@ -1,6 +1,6 @@
 {
-  "name": "Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК.",
-  "description": "Анализы и другие медицинские услуги в Чите. Гемотест Чита, анализы за день. УЗИ обследования.",
+  "name": "doctor-chita",
+  "description": "Medical tests in chita",
   "version": "1.0.0",
   "author": "Denis Kuznetsov",
   "dependencies": {
