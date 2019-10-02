@@ -1,31 +1,24 @@
 import React from 'react'
-import Scrollspy from 'react-scrollspy'
-import Scroll from './Scroll'
+import { Link } from 'gatsby';
+
 
 const Nav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
-        <Scrollspy items={ ['intro', 'first', 'second', 'cta'] } currentClassName="is-active" offset={-300}>
-            <li>
-                <Scroll type="id" element="intro">
-                    <a href="#">Introduction</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="first">
-                    <a href="#">First Section</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="second">
-                    <a href="#">Second Section</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="cta">
-                    <a href="#">Get Started</a>
-                </Scroll>
-            </li>
-        </Scrollspy>
+       <ul>
+       <li>
+          <Link to="/">О ЦЕНТРЕ</Link>
+        </li>
+        <li>
+          <Link to="/uslugi">НАШИ УСЛУГИ</Link>
+        </li>
+        <li>
+          <Link to="/generic">ЦЕНЫ</Link>
+        </li>
+        <li>
+          <Link to="/generic">КОНТАКТЫ</Link>
+        </li>
+        
+      </ul>
     </nav>
 )
 

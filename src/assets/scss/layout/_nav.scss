@@ -23,6 +23,7 @@
 		border-top-right-radius: _size(border-radius-main);
 		cursor: default;
 		text-align: center;
+		color: _palette(invert, fg-nav); 
 
 		& + #main {
 			padding-top: 4.25em;
@@ -58,11 +59,7 @@
 						background-color: _palette(invert, border-bg);
 					}
 
-					// &.active {
-					// 	background-color: _palette(invert, bg);
-					// 	box-shadow: none;
-					// }
-				}
+									}
 				&.is-active {
 					a {
 						background-color: _palette(invert, bg);

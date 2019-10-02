@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК.",
+    author: "Denis Kuznetsov",
+    description: "Медицинские обследования в Чите, анализы любого вида, УЗИ."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,8 +12,8 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },

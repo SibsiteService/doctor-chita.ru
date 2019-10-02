@@ -2,10 +2,20 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+
+import uzi_pic from '../assets/images/pic_1.jpg'
+import gin_pic from '../assets/images/pic_2.jpg'
+import end_pic from '../assets/images/pic_3.jpg'
+import uro_pic from '../assets/images/pic_4.jpg'
+import ana_pic from '../assets/images/pic_5.jpg'
+import dnk_pic from '../assets/images/pic_6.jpg'
+import abo_pic from '../assets/images/pic_7.jpg'
+import che_pic from '../assets/images/pic_8.jpg'
+import ber_pic from '../assets/images/pic_9.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -26,7 +36,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." />
 
         <Header />
 
@@ -37,71 +47,76 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
-                </header>
-                <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/generic" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <span className="image">
-                <img src={pic01} alt="" />
-              </span>
-            </div>
-          </section>
-
           <section id="first" className="main special">
-            <header className="major">
-              <h2>Magna veroeros</h2>
-            </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
+              <span className="image">
+                <img src={uzi_pic} alt="" />
+              </span>
+                <h3>УЗИ</h3>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
+              <span className="image">
+                <img src={gin_pic} alt="" />
+              </span>
+                <h3>ГИНЕКОЛОГИЯ</h3>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
+              <span className="image">
+              <a href="/generic"> 
+                <img src={ber_pic} alt="" />
+              </a>   
+              </span>
+              <Link to="/generic">
+                <h3>ПЛАНИРОВАНИЕ БЕРЕМЕННОСТИ</h3>
+              </Link>
+              </li>
+              <li>
+              <span className="image">
+                <img src={end_pic} alt="" />
+              </span>
+                <h3>ЭНДОКРИНОЛОГИЯ В ГИНЕКОЛОГИИ</h3>
+              </li>
+              <li>
+              <span className="image">
+                <img src={dnk_pic} alt="" />
+              </span>
+                <h3>ДНК АНАЛИЗЫ НА УСТАНОВЛЕНИЕ ОТЦОВСТВА</h3>
+              </li>
+              <li>
+              <span className="image">
+              <a href="/generic"> 
+                <img src={abo_pic} alt="" />
+              </a>   
+              </span>
+              <Link to="/generic">
+                <h3>МЕДИКАМЕНТОЗНОЕ ПРЕРЫВАНИЕ БЕРЕМЕННОСТИ</h3>
+              </Link>
+              </li>
+              <li>
+              <span className="image">
+              <a href="/generic">
+                <img src={che_pic} alt="" />
+              </a> 
+              </span>
+              <Link to="/generic">
+                <h3>КОМПЛЕКСНЫЕ ЧЕК-АП ОБСЛЕДОВАНИЯ</h3>
+              </Link>
+              </li>
+              <li>
+              <span className="image">
+                <img src={uro_pic} alt="" />
+              </span>
+                <h3>УРОЛОГИЯ</h3>
+              </li>
+              <li>
+              <span className="image">
+                <img src={ana_pic} alt="" />
+              </span>
+                <h3>МЕДИЦИНСКИЕ АНАЛИЗЫ</h3>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
+            
           </section>
 
           <section id="second" className="main special">
