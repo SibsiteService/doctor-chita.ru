@@ -154,24 +154,24 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <span className="icon fa-diamond"></span>
+                <strong>УЗИ</strong> высокой точности
               </li>
               <li className="style2">
                 <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+                <strong>Врачи</strong> со стажем более 10 лет
               </li>
               <li className="style3">
                 <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <strong>Анализы</strong> все виды в короткие сроки
               </li>
               <li className="style4">
                 <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
+                <strong>Скидка</strong> 25% на ДНК анализ для утсановления отцовства
               </li>
               <li className="style5">
                 <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+                <strong>ЭКО</strong> все виды анализов для подготовки
               </li>
             </ul>
             <p className="content">
