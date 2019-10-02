@@ -4,69 +4,57 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>ВАШ + ДОКТОР</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
-      </p>
-      <ul className="actions">
-        <li>
-          <Link to="/generic" className="button">
-            Learn More
-          </Link>
-        </li>
+        Забор крови на анализы:
+      <ul>
+        <li>Понедельник с 7:30 до 14:30</li>
+        <li>Вторник с 7:30 до 14:30</li>
+        <li>Среда с 7:30 до 14:30</li>
+        <li>Четверг с 7:30 до 14:30</li>
+        <li>Пятница с 7:30 до 14:30</li>
+        <li>Суббота с 7:30 до 14:30</li>
       </ul>
+      </p>
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      <h2>Контактная Информация</h2>
       <dl className="alt">
-        <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-        <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
-        <dt>Email</dt>
-        <dd>
-          <a href="https://codebushi.com">information@untitled.tld</a>
-        </dd>
+        <dt>Адрес:</dt>
+        <dd>ул. Шилова, д. 19, г. Чита, Забайкальский край</dd>
+        <dt>Телефон:</dt>
+        <dd>+7 800 550-13-13</dd>
+        <dt>
+        <a href="http://n207269.yclients.com" target="_blank" rel="noopener noreferrer" className="button">
+            Предварительная запись на приём к врачу
+        </a>
+        </dt>
+        
       </dl>
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/huntaroSan"
-            className="icon fa-twitter alt"
+            href="https://vk.com/club98159070"
+            className="icon fa-vk alt"
+            target="_blank" 
+            rel="noopener noreferrer"
           >
-            <span className="label">Twitter</span>
+            <span className="label">vk.com</span>
           </a>
         </li>
         <li>
-          <a href="https://codebushi.com" className="icon fa-facebook alt">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-instagram alt">
+          <a  href="https://www.instagram.com/obsledovaniya/" 
+              className="icon fa-instagram alt"
+              target="_blank" 
+              rel="noopener noreferrer"
+          >      
             <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/codebushi/gatsby-starter-stellar"
-            className="icon fa-github alt"
-          >
-            <span className="label">GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
           </a>
         </li>
       </ul>
     </section>
     <p className="copyright">
-      &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; ВАШ + ДОКТОР 2019. Все права защищены. &nbsp;&nbsp;&nbsp; Разработано в: <a href="https://www.sibsite-service.com"  target="_blank" rel="noopener noreferrer">Сибсайт Сервис</a>
     </p>
   </footer>
 )

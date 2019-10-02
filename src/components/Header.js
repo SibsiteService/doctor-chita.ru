@@ -1,13 +1,13 @@
 import React from 'react'
 import logo from '../assets/images/logo-full.png';
-
+import { Link } from 'gatsby'
 
 import gemotest from '../assets/images/gemotest.svg';
 
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <span className="logo"><img src={logo} alt="Ваш + Доктор | Лого" width="60%"/></span>
+        <span className="logo"><Link to="/"><img src={logo} alt="Ваш + Доктор | Лого" width="70%"/></Link></span>
         <p>
             в партнерстве с
         <br/>
