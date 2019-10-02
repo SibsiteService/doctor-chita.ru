@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК.",
+  "description": "Анализы и другие медицинские услуги в Чите. Гемотест Чита, анализы за день. УЗИ обследования.",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Denis Kuznetsov",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
