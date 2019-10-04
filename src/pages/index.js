@@ -10,10 +10,8 @@ import Nav from '../components/Nav'
 import uzi_pic from '../assets/images/pic_1(1).jpg'
 import gin_pic from '../assets/images/pic_2(1).jpg'
 import end_pic from '../assets/images/pic_3(1).jpg'
-import uro_pic from '../assets/images/pic_4(1).jpg'
 import ana_pic from '../assets/images/pic_5(1).jpg'
 import dnk_pic from '../assets/images/pic_6(1).jpg'
-import abo_pic from '../assets/images/pic_7(1).jpg'
 import che_pic from '../assets/images/pic_8(1).jpg'
 import ber_pic from '../assets/images/pic_9(1).jpg'
 
@@ -37,9 +35,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet title="Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." />
-
-        <Header />
-
+        <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
@@ -127,7 +123,7 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Для нас важны люди, которым мы помогаем быть здоровыми!</h2>
+              <h2>В Чите в честь открытия новой медицинской лаборатории предлагаются подарки и скидки на обследования!</h2>
             </header>
             <ul className="statistics">
               <li className="style1">
@@ -144,7 +140,7 @@ class Index extends React.Component {
               </li>
               <li className="style4">
                 <span className="icon fa-percent"></span>
-                <strong>Скидки</strong> до 25% по бонусной программе
+                <strong>Скидки</strong> до 25 % по бонусной программе
               </li>
               <li className="style5">
                 <span className="icon fa-stethoscope"></span>
@@ -152,45 +148,26 @@ class Index extends React.Component {
               </li>
             </ul>
             <header className="major">
-              <h2>В Чите в честь открытия новой медицинской лаборатории предлагаются подарки и скидки на обследования.</h2>
+              <h2>Для нас важны люди, которым мы помогаем быть здоровыми!</h2>
             </header>
             <p className="content">
-            Мы приглашаем Вас на обследование в новую медицинскую лабораторию по адресу <strong>ул. Шилова, 19</strong>
+            Мы приглашаем Вас на обследование в новую медицинскую лабораторию под известным брендом 
+            <strong> «Гемотест»</strong> по адресу <strong>ул. Шилова, 19</strong>. 
+            Предоставляются скидки на важные исследования при планировании беременности и 
+            выявлении проблем на ранних стадиях их появления. Компания «Гемотест» является лидером на рынке медицинских обследований в России. 
+            Здесь применяются самые современные технологии в области исследования и диагностики. 
+            Успешно выявляются даже генетические патологии. Очень многое о здоровье расскажет биохимический анализ. 
+            В <strong>скриннинговый комплекс за 290 рублей</strong> входит 8 основных показателей состояния почек, печени, уровня холестерина и железа.
+            Рекомендуется для профилактики мониторить появление в крови онкомаркеров – веществ, свидетельствующих о наличии патологических процессов.  
+            Для диагностики аденомы и карциномы предстательной железы мужчинам по акции можно сдать <strong>ПСА свободный/ПСА общий всего за 690 рублей</strong>.
+            Женщинам можно пройти <strong>цитологическое исследование соскобов шейки матки и цервикального канала всего за 2 250 рублей</strong>.
+            Очень важно ответственно и осознанно подходить к планированию беременности, чтобы выносить и родить здорового малыша. 
+            Поэтому предлагаются специальные льготные цены на обязательные обследования для тех, кто планирует забеременеть. 
+            Например, <strong>цикл анализов на TORCH-инфекции</strong>, которыми может заразиться плод во время беременности и при прохождении родовых путей, <strong>обойдется в 2950 рублей</strong>. 
+            <strong> Общеклинические показатели можно сдать за 2916 рублей</strong>. Цервикальный скринниг, <strong>ИППП (прегравидарная подготовка к беременности) – 2420 рублей</strong>, 
+            <strong> женские гормоны (лютеиновая фаза) – 540 рублей</strong>, 
+            <strong> женские гормоны (фолликулярная фаза) – 2830 рублей</strong>. Консультация врача по результатам анализов – в подарок!
             </p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
-            </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
         </div>
       </Layout>

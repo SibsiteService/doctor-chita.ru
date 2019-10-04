@@ -1,13 +1,15 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { render } from 'react-dom';
 
 import Layout from '../components/layout'
+import Accordion from '../components/Accordion';
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import { Waypoint } from 'react-waypoint'
 import pic04 from '../assets/images/pic04.jpg'
 
-class Generic extends React.Component {
+class prices extends React.Component {
   
   constructor(props) {
     super(props)
@@ -28,7 +30,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="Ваш + Доктор | Гемотест Цены" />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -36,19 +38,286 @@ class Generic extends React.Component {
         ></Waypoint>
         <Nav sticky={this.state.stickyNav}/>
 
+    
+      
+
+
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={pic04} alt="" /></span>
-            <h2>Magna feugiat lorem</h2>
-            <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-            <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-            <h2>Tempus veroeros</h2>
-            <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
-          </section>
+            
+            <h2>Цены</h2>
+            <Accordion allowMultipleOpen>
+            <div label='УЗИ' isOpen>
+            
+            <table>
+								<thead>
+									<tr>
+                    <th></th>
+										<th></th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+                    <td>При беременности</td>
+										<td>Ранняя  диагностика беременности</td>
+                    <td>830₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Допплерометрия сосудов матки и плода (с 20 недели беременности)	</td>
+                    <td>680₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>УЗИ молочных желез с регионарными лимфоузлами с цветовым допплеровским картированием</td>
+                    <td>680₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование в 1 триместре беременности (10-13 неделя беременности)</td>
+                    <td>850₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование во 2 триместре беременности  (14-27 неделя беременности)</td>
+                    <td>1000₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование в 3 триместре беременности</td>
+                    <td>1200₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование матки и придатков трансабдоминальное</td>
+                    <td>700₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование матки и придатков трансабдоминальное  и трансвагинальное</td>
+                    <td>1400₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование матки и придатков трансвагинальное</td>
+                    <td>850₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование молочных желез с регионарными лимфоузлами</td>
+                    <td>500₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование плода с записью на DVD</td>
+                    <td>1000₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование фолликулогенеза(фолликулометрия)</td>
+                    <td>950₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Цервикометрия</td>
+                    <td>550₽</td>
+									</tr>
+                  <tr>
+                    <td>УЗИ желез</td>
+										<td>Ультразвуковое исследование щитовидной железы</td>
+                    <td>600₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование слюнных желез</td>
+                    <td>600₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование паращитовидных желез</td>
+                    <td>300₽</td>
+									</tr>
+                  <tr>
+                    <td>Органы брюшной полости</td>
+										<td>Ультразвуковое исследование органов брюшной полости (комплексное) (печень, желчный пузырь, поджелудочная железа, селезенка)</td>
+                    <td>800₽</td>
+									</tr>
+									<tr>
+                    <td></td>
+										<td>Ультразвуковое исследование печени</td>
+                    <td>300₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование поджелудочной железы</td>
+                    <td>200₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование селезенки</td>
+                    <td>200₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование желчного пузыря</td>
+                    <td>400₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Дуплексное сканирование сосудов печени</td>
+                    <td>300₽</td>
+									</tr>
+                  <tr>
+                    <td>Прочие УЗИ</td>
+										<td>Ультразвуковое исследование крупных суставов (2 одноименных сустава)</td>
+                    <td>800₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование мягких тканей (патологические элементы кожи, подкожной клетчатки, мышц)</td>
+                    <td>800₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование плевральной полости</td>
+                    <td>300₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование регионарных лимфатических узлов (1 область)</td>
+                    <td>400₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование тазобедренных суставов (2 сустава)</td>
+                    <td>1500₽</td>
+									</tr>
+                  <tr>
+                    <td>Сердечно-сосудистая система</td>
+										<td>Дуплексное сканирование артерий верхних конечностей</td>
+                    <td>480₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Дуплексное сканирование артерий нижних конечностей</td>
+                    <td>500₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Дуплексное сканирование вен верхних конечностей</td>
+                    <td>500₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Дуплексное сканирование вен нижних конечностей</td>
+                    <td>2000₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Дуплексное сканирование сосудов (артерий и вен) нижних конечностей</td>
+                    <td>1000₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование брюшного отдела аорты</td>
+                    <td>650₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Эхокардиография</td>
+                    <td>1100₽</td>
+									</tr><tr>
+                    <td>Урология-андрология</td>
+										<td>Дуплексное сканирование артерий почек</td>
+                    <td>800₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование мочевого пузыря с определением остаточной мочи</td>
+                    <td>300₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование мочевыводящих путей</td>
+                    <td>450₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование надпочечников</td>
+                    <td>150₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование органов мошонки</td>
+                    <td>650₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование органов мошонки и полового члена</td>
+                    <td>750₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование почек</td>
+                    <td>300₽</td>
+									</tr>
+                  <tr>
+                    <td></td>
+										<td>Ультразвуковое исследование почек и надпочечников</td>
+                    <td>450₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование предстательной железы (с определением остаточной мочи) трансабдоминально</td>
+                    <td>850₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование предстательной железы (с определением остаточной мочи) трансабдоминально и трансректально (ТРУЗИ)</td>
+                    <td>1000₽</td>
+									</tr><tr>
+                    <td>Опорно – Двигательная система</td>
+										<td>Ультразвуковое исследование плечевых суставов</td>
+                    <td>1200₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование локтевых суставов</td>
+                    <td>1200₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование кисти</td>
+                    <td>1200₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование тазобедренных суставов</td>
+                    <td>1200₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование коленных суставов</td>
+                    <td>1200₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование голеностопных суставов</td>
+                    <td>1200₽</td>
+									</tr><tr>
+                    <td></td>
+										<td>Ультразвуковое исследование стопы</td>
+                    <td>1200₽</td>
+									</tr>
+
+								</tbody>
+								
+							</table>
+            </div>
+            
+            <div label='Alligator Sinensis'>
+            <p><strong>Common Name:</strong> Chinese Alligator</p>
+            <p><strong>Distribution:</strong> Eastern China</p>
+            <p><strong>Endangered Status:</strong> Critically Endangered</p>
+            </div>
+            </Accordion>
+            </section>
         </div>
+        
       </Layout>
+
     )
   }
+  
 }
 
-export default Generic
+export default prices

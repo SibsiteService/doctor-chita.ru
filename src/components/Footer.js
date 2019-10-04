@@ -54,7 +54,8 @@ const Footer = props => (
       </ul>
     </section>
     <p className="copyright">
-      &copy; ВАШ + ДОКТОР 2019. Все права защищены. &nbsp;&nbsp;&nbsp; Разработано в: <a href="https://www.sibsite-service.com"  target="_blank" rel="noopener noreferrer">Сибсайт Сервис</a>
+      &copy; ВАШ + ДОКТОР. Все права защищены. "Лаборатория Гемотест" и общество с ограниченной ответственностью "Ваш Доктор ", работающие по договору коммерческой концессии, на основании Лицензии № ЛО-75-01-001494 от 22.01.2019 г., выданной Министерством здравоохранения Забайкальского края.
+ &nbsp;&nbsp;&nbsp; Разработано в <a href="https://www.sibsite-service.com"  target="_blank" rel="noopener noreferrer">Сибсайт Сервис</a>
     </p>
   </footer>
 )
