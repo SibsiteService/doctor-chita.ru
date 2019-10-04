@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Header from '../components/HeaderGeneric'
 import Nav from '../components/Nav'
 import { Waypoint } from 'react-waypoint'
-import pic04 from '../assets/images/pic04.jpg'
+
 
 class Generic extends React.Component {
   
