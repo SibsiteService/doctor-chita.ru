@@ -145,12 +145,7 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <h2>Для нас важны люди, которым мы помогаем быть здоровыми!</h2>
             </header>
             <ul className="statistics">
               <li className="style1">
@@ -167,24 +162,18 @@ class Index extends React.Component {
               </li>
               <li className="style4">
                 <span className="icon fa-laptop"></span>
-                <strong>Скидка</strong> 25% на ДНК анализ для утсановления отцовства
+                <strong>Скидка</strong> 25% на ДНК анализы
               </li>
               <li className="style5">
                 <span className="icon fa-diamond"></span>
                 <strong>ЭКО</strong> все виды анализов для подготовки
               </li>
             </ul>
+            <header className="major">
+              <h2>В Чите в честь открытия новой медицинской лаборатории предлагаются подарки и скидки на обследования.</h2>
+            </header>
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+            Мы приглашаем Вас на обследование в новую медицинскую лабораторию по адресу <strong>ул. Шилова, 19</strong>
             </p>
             <footer className="major">
               <ul className="actions">
