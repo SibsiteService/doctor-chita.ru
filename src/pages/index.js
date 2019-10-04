@@ -99,16 +99,7 @@ class Index extends React.Component {
                 <h3>ДНК АНАЛИЗЫ НА УСТАНОВЛЕНИЕ ОТЦОВСТВА</h3>
                 </Link>
               </li>
-              <li>
-              <span className="image">
-              <a href="/preryvanie-beremennosti"> 
-                <img src={abo_pic} alt="" />
-              </a>   
-              </span>
-              <Link to="/preryvanie-beremennosti">
-                <h3>МЕДИКАМЕНТОЗНОЕ ПРЕРЫВАНИЕ БЕРЕМЕННОСТИ</h3>
-              </Link>
-              </li>
+  
               <li>
               <span className="image">
               <a href="/check-up">
@@ -119,16 +110,7 @@ class Index extends React.Component {
                 <h3>КОМПЛЕКСНЫЕ ЧЕК-АП ОБСЛЕДОВАНИЯ</h3>
               </Link>
               </li>
-              <li>
-              <span className="image">
-                <a href="/urologia">
-                <img src={uro_pic} alt="" />
-                </a>              
-              </span>
-                <Link to="/urologia">
-                <h3>УРОЛОГИЯ</h3>
-                </Link>
-              </li>
+              
               <li>
               <span className="image">
                 <a href="/analisy">
@@ -161,11 +143,11 @@ class Index extends React.Component {
                 <strong>Анализы</strong> все виды в короткие сроки
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>Скидка</strong> 25% на ДНК анализы
+                <span className="icon fa-percent"></span>
+                <strong>Скидки</strong> до 25% по бонусной программе
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
+                <span className="icon fa-stethoscope"></span>
                 <strong>ЭКО</strong> все виды анализов для подготовки
               </li>
             </ul>
