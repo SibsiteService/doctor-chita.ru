@@ -118,6 +118,10 @@ class Index extends React.Component {
                 </Link>
               </li>
             </ul>
+
+            <Link to="/prices"  target="_blank" rel="noopener noreferrer" class="button fit">
+                  ПОДРОБНЕЕ О ЦЕНАХ
+            </Link>
             
           </section>
 

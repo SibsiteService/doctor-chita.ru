@@ -1,14 +1,14 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
+import 'react-web-tabs/dist/react-web-tabs.css'
 
 import Layout from '../components/layout'
 
 import HeaderGeneric from '../components/HeaderGeneric'
 import PricesTabs from '../components/PricesTabs'
-import Nav from '../components/Nav'
+import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
-import pic04 from '../assets/images/pic04.jpg'
+
 
 class prices extends React.Component {
   
@@ -31,7 +31,7 @@ class prices extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Ваш + Доктор | Гемотест Цены" />
+        <Helmet title="Ваш + Доктор | Гемотест - цены на обследования в Чите" />
         <HeaderGeneric/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -40,7 +40,7 @@ class prices extends React.Component {
         <Nav sticky={this.state.stickyNav}/>
         
         <div id="main">
-          <section id="content" className="main">
+          <section id="Layout" className="main">
             <PricesTabs/>
             </section>
         </div>

@@ -8,9 +8,7 @@ const Nav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
        <ul>
        <li>
-          <Scroll type="id" element="second">
-                    <a href="#">О ЦЕНТРЕ</a>
-          </Scroll>
+       <Link to="/">О ЦЕНТРЕ</Link>
         </li>
         
         
