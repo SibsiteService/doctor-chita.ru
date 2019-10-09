@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import 'react-web-tabs/dist/react-web-tabs.css'
+import '../assets/css/react-web-tabs-cust.css'
 
 import Layout from '../components/layout'
 
