@@ -28,7 +28,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="Ваш + Доктор | Эндокринология Чита" />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -38,13 +38,220 @@ class Generic extends React.Component {
 
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={pic04} alt="" /></span>
-            <h2>Magna feugiat lorem</h2>
-            <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-            <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-            <h2>Tempus veroeros</h2>
-            <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
-          </section>
+          <h2>Что делать при нарушении менструального цикла, гормональных сбоях в организме?</h2>
+          <p>Одним из критериев женского здоровья является стабильный менструальный цикл. Но его нарушения, к сожалению, не редкость. Единичные сбои могут быть обусловлены общим заболеванием, стрессом и другими транзиторными факторами. Если нарушение менструального цикла носит постоянный характер, нужно пройти обследование у гинеколога.</p>
+        
+        <div className="table-wrapper">
+        <h2>Причины нарушения менструального цикла</h2>
+        <p>У подростков нарушения могут быть вариантом нормы. В течение первого года с момента начала месячных цикл может быть нерегулярными. Это связано с гормональной перестройкой организма. Если менструальный цикл и далее остается нерегулярным, девушку необходимо обследовать и установить причину сбоя. Наиболее распространенные причины нарушений менструального цикла:</p>
+            
+              <table>
+								<thead>
+									<tr>
+                    <th>Цена</th>
+                    <th>Название анализа</th>
+										<th>Для чего необходимо его сдавать</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+                    <td>270₽</td>
+                    <td>ЛГ (лютеинизирующий гормон)</td>
+										<td>Гонадотропный гормон передней доли гипофиза,
+                       который стимулирует секрецию половых гормонов, эстрогенов и прогестерона</td>
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>Эстрадиол</td>
+										<td>Эстрогенный стероидный гормон , который играет важную роль в формировании и функционировании половой системы</td>
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>ФСГ (фолликулостимулирующий гормон)</td>
+										<td>Гликопротеиновый гормон передней доли гипофиза , который влияет на функцию половых желез</td>
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>Пролактин</td>
+										<td>Гормон, контролирующий метаболизм, а так же процессы роста и развития организма. Так же он тормозит секрецию ФСГ, обеспечивая нормальный менструальный цикл</td>
+                    
+									</tr>
+                  <tr>
+                  <td>290₽</td>
+                    <td>Прогестерон</td>
+										<td>Это стероидный гормон, основной функцией которого является подготовка организма женщины к беременности. Он вырабатывается желтым телом яичников</td>
+                    
+									</tr>
+                  <tr>
+                  <td>290₽</td>
+                    <td>Тестостерон</td>
+										<td>Это стероидный гормон из группы андрогенов, отвечающий за формирование вторичных половых признаков и половую функцию.</td>
+                    
+									</tr>
+                  <tr>
+                  <td>430₽</td>
+                    <td>17- ОПГ</td>
+										<td>Гормон, продуцирующийся надпочечниками, участвует в метаболизме, поддержании кровяного давления и регуляции иммунной системы</td>
+                    
+									</tr>
+                  <tr>
+                  <td>430₽</td>
+                    <td>ДЭА-сульфат (Дегидроэпиандростерон-сульфат</td>
+										<td>Андроген, мужской половой гормон, который присутствует в крови как у мужчин, так и у женщин. Он играет важную роль в развитии вторичных мужских половых признаков при половом созревании и может преобразовываться в тестостерон и эстрадиол. ДЭА-SO4 вырабатывается корой надпочечников, его производство контролируется адренокортикотропным гормоном (АКТГ).</td>
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>ТТГ(Тиреотропный гормон)</td>
+										<td>Основной регулятор функции щитовидной железы, синтезирующийся гипофизом.Основная его функция – поддерживать постоянную концентрацию гормонов щитовидной железы – тиреоидных гормонов, которые регулируют процессы образования энергии в организме. Когда их содержание в крови понижается, гипоталамус высвобождает гормон, стимулирующий секрецию ТТГ гипофизом.</td>
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>Т4 свободный</td>
+										<td>Один из двух главных гормонов щитовидной железы, основной функцией которого является регуляция энергетического и пластического обмена в организме. Свободный тироксин – биологически активная часть общего тироксина, которая играет важную роль в обмене веществ.</td>
+                    
+									</tr>
+                  <tr>
+                  <td>340₽</td>
+                    <td>А/т к ТРО</td>
+										<td>Антитела к тиреопероксидазе – специфические иммуноглобулины, направленные против фермента, содержащегося в клетках щитовидной железы и отвечающего за образование активной формы йода для синтеза тиреоидных гормонов. Они являются специфичным маркером аутоиммунных заболеваний щитовидной железы.</td>
+                    
+									</tr>
+                </tbody>
+							</table>
+        <h2>Какие анализы следует сдать при наступлении Климакса?</h2>
+        <p>Климакс - естественный биологический период в жизни женщины, который связан с угасанием функции яичников. Клинически проявляется в отсутствии менструаций.</p>      
+              <table>
+								<thead>
+									<tr>
+                  <th>Цена</th>
+                    <th>Название анализа</th>
+                    <th>Для чего необходимо сдавать?</th>
+										
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+                  <td>120₽</td>
+                    <td>АЛТ</td>
+                    <td>Оценивает работу печени</td>
+                    
+                    
+									</tr>
+                  <tr>
+                  <td>120₽</td>
+                    <td>АСТ</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>150₽</td>
+                    <td>Билирубин</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>400₽</td>
+                    <td>Гликированный гемоглобин</td>
+                    <td>Выявляет скрытый сахарный диабет</td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>150₽</td>
+                    <td>Общий холестерин</td>
+                    <td>Профилактика тромбозов (инсульты, инфаркты, ТЭЛА)</td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>290₽</td>
+                    <td>ФСГ</td>
+                    <td>Отображают гормональные нарушения, показывают стадию менопаузы</td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>290₽</td>
+                    <td>ЛГ</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>Эстрадиол</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>Пролактин</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>ТТГ</td>
+                    <td>Оценивают работу щитовидной железы</td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>340₽</td>
+                    <td>А/т к ТРО</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>270₽</td>
+                    <td>Свободный Т4</td>
+                    <td></td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>180₽</td>
+                    <td>Протромбин №1, МНО</td>
+                    <td>Показатели, выражающие протромбиновое время, которое характеризует первую и вторую фазу гемостаза</td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>780₽</td>
+                    <td>D – димер (по показаниям при наличии варикозной болезни, наследственности)</td>
+                    <td>Маркер тромбообразования , так как в процессе тромбообразования , запускается и процесс растворения тромбов с образованием D – димеров</td>
+										
+                    
+									</tr>
+                  <tr>
+                  <td>160₽</td>
+                    <td>Фибриноген</td>
+                    <td>Белок, вырабатываемый в печени и превращающийся в нерастворимый фибрин – основу сгустка при свертывании крови.</td>
+										
+                    
+									</tr><tr>
+                  <td>130₽</td>
+                    <td>АЧТВ</td>
+                    <td>Активированное частичное тромбопластиновое время , время за которое образуется сгусток</td>
+										
+                    
+									</tr>
+                </tbody>
+							</table>
+              </div>
+              </section>
         </div>
       </Layout>
     )

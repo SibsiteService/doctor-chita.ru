@@ -57,16 +57,6 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="/ginekologia"> 
-                <img src={gin_pic} alt="" />
-                </a>
-              </span>
-                <Link to="/ginekologia">
-                <h3>ГИНЕКОЛОГИЯ</h3>
-                </Link>  
-              </li>
-              <li>
-              <span className="image">
               <a href="/beremennost"> 
                 <img src={ber_pic} alt="" />
               </a>   
@@ -139,8 +129,8 @@ class Index extends React.Component {
                 <strong>Врачи</strong> со стажем более 10 лет
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>Анализы</strong> все виды в короткие сроки
+                <a target="_blank" rel="noopener noreferrer" href="https://www.gemotest.ru/patients/actions/" className="icon fa-exclamation"></a>
+               <a target="_blank" rel="noopener noreferrer" href="https://www.gemotest.ru/patients/actions/"> <strong>Акции и Предложения</strong> от нашего партнера лаборатории Гемотест</a>
               </li>
               <li className="style4">
                 <span className="icon fa-percent"></span>
