@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК.",
     author: "Denis Kuznetsov",
-    description: "Медицинские обследования в Чите, анализы любого вида, УЗИ."
+    description: "Медицинские обследования в Чите, анализы, УЗИ."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
