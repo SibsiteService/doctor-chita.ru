@@ -1,6 +1,7 @@
 {
-  "name": "doctor-chita",
+  "name": "doctor-chita.ru",
   "description": "Медицинский центр Ваш Доктор в Чите является официальным представителем лабораторий Гемотест в городе Чита. Здесь Вы можете пройти медицинские обследования, сдать анализы, сделать УЗИ.",
+  "yandex-verification": "2c6b2cd549700b18",
   "version": "1.0.0",
   "author": "Denis Kuznetsov",
   "dependencies": {
