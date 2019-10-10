@@ -31,7 +31,7 @@ class prices extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Ваш + Доктор | Гемотест - цены на обследования в Чите" />
+        <Helmet title="Ваш Доктор | Гемотест - цены на обследования в Чите" />
         <HeaderGeneric/>
         <Waypoint
           onEnter={this._handleWaypointEnter}

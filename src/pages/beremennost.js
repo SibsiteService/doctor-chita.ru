@@ -28,7 +28,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Ваш + Доктор | Планирование ребенка Чита. Какие анализы нужно сдавать будущим родителям?" />
+        <Helmet title="Ваш Доктор | Планирование ребенка Чита. Какие анализы нужно сдавать будущим родителям?" />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}

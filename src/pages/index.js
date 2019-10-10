@@ -34,7 +34,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Ваш + Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." />
+        <Helmet title="Ваш Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
