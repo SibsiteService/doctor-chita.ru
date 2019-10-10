@@ -33,7 +33,12 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Ваш Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." />
+        <Helmet 
+        title="Ваш Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." 
+        meta={[
+          {name: 'yandex-verification', content:'42d2c6d546c40bcc'},
+        ]}
+        />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
