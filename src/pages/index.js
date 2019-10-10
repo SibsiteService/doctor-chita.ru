@@ -8,7 +8,6 @@ import Layout from '../components/layout'
 import Nav from '../components/Nav'
 
 import uzi_pic from '../assets/images/pic_1(1).jpg'
-import gin_pic from '../assets/images/pic_2(1).jpg'
 import end_pic from '../assets/images/pic_3(1).jpg'
 import ana_pic from '../assets/images/pic_5(1).jpg'
 import dnk_pic from '../assets/images/pic_6(1).jpg'
