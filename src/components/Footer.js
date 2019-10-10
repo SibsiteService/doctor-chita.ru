@@ -23,7 +23,7 @@ const Footer = props => (
         <dt>Адрес:</dt>
         <dd>ул. Шилова, д. 19, г. Чита, Забайкальский край</dd>
         <dt>Телефон:</dt>
-        <dd><a href="tel: 8-800-550-13-13">8-800-550-13-13</a> (звонок бесплатный по всей России)</dd>
+        <dd><a href="tel: 88005501313">8 (800) 550-13-13</a> (звонок бесплатный по всей России)</dd>
         <dt>
         <a href="http://n207269.yclients.com" target="_blank" rel="noopener noreferrer" className="button">
             Предварительная запись на приём к врачу
@@ -55,7 +55,7 @@ const Footer = props => (
     </section>
     <p className="copyright">
       &copy; ВАШ + ДОКТОР. Все права защищены. "Лаборатория Гемотест" и общество с ограниченной ответственностью "Ваш Доктор ", работающие по договору коммерческой концессии, на основании Лицензии № ЛО-75-01-001494 от 22.01.2019 г., выданной Министерством здравоохранения Забайкальского края.
- &nbsp;&nbsp;&nbsp; Разработано в <a href="https://www.sibsite-service.com"  target="_blank" rel="noopener noreferrer">Сибсайт Сервис</a>
+ <br></br> Разработано в <a href="https://www.sibsite-service.com"  target="_blank" rel="noopener noreferrer"><strong>Сибсайт Сервис</strong>.</a>
     </p>
   </footer>
 )

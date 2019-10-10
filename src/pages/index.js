@@ -43,7 +43,34 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="first" className="main special">
+        <section id="first" className="main special">
+            <header className="major">
+              <h2>В Чите в честь открытия новой медицинской лаборатории предлагаются подарки и скидки на обследования!</h2>
+            </header>
+            <ul className="statistics">
+              <li className="style1">
+                <span className="icon fa-diamond"></span>
+                <strong>УЗИ</strong> высокой точности
+              </li>
+              <li className="style2">
+                <span className="icon fa-folder-open-o"></span>
+                <strong>Врачи</strong> со стажем более 10 лет
+              </li>
+              <li className="style3">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.gemotest.ru/patients/actions/" className="icon fa-exclamation"></a>
+               <a target="_blank" rel="noopener noreferrer" href="https://www.gemotest.ru/patients/actions/"> <strong>Акции и Предложения</strong> от нашего партнера лаборатории Гемотест</a>
+              </li>
+              <li className="style4">
+                <span className="icon fa-percent"></span>
+                <strong>Скидки</strong> до 25 % по бонусной программе
+              </li>
+              <li className="style5">
+                <span className="icon fa-stethoscope"></span>
+                <strong>ЭКО</strong> все виды анализов для подготовки
+              </li>
+            </ul>
+            </section>
+          <section id="second" className="main special">
             <ul className="features">
               <li>
               <span className="image">
@@ -115,32 +142,8 @@ class Index extends React.Component {
             
           </section>
 
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>В Чите в честь открытия новой медицинской лаборатории предлагаются подарки и скидки на обследования!</h2>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-diamond"></span>
-                <strong>УЗИ</strong> высокой точности
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>Врачи</strong> со стажем более 10 лет
-              </li>
-              <li className="style3">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.gemotest.ru/patients/actions/" className="icon fa-exclamation"></a>
-               <a target="_blank" rel="noopener noreferrer" href="https://www.gemotest.ru/patients/actions/"> <strong>Акции и Предложения</strong> от нашего партнера лаборатории Гемотест</a>
-              </li>
-              <li className="style4">
-                <span className="icon fa-percent"></span>
-                <strong>Скидки</strong> до 25 % по бонусной программе
-              </li>
-              <li className="style5">
-                <span className="icon fa-stethoscope"></span>
-                <strong>ЭКО</strong> все виды анализов для подготовки
-              </li>
-            </ul>
+          
+            <section id="third" className="main special">
             <header className="major">
               <h2>Для нас важны люди, которым мы помогаем быть здоровыми!</h2>
             </header>

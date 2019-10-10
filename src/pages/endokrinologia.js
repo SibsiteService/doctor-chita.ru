@@ -3,9 +3,9 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import Header from '../components/Header'
-import Nav from '../components/Nav'
+import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
-import pic04 from '../assets/images/pic04.jpg'
+
 
 class Generic extends React.Component {
   
@@ -28,7 +28,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Ваш + Доктор | Эндокринология Чита" />
+        <Helmet title="Ваш + Доктор | Эндокринология Чита. Что делать при нарушении менструального цикла?" />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -43,7 +43,7 @@ class Generic extends React.Component {
         
         <div className="table-wrapper">
         <h2>Причины нарушения менструального цикла</h2>
-        <p>У подростков нарушения могут быть вариантом нормы. В течение первого года с момента начала месячных цикл может быть нерегулярными. Это связано с гормональной перестройкой организма. Если менструальный цикл и далее остается нерегулярным, девушку необходимо обследовать и установить причину сбоя. Наиболее распространенные причины нарушений менструального цикла:</p>
+        <p>У подростков нарушения могут быть вариантом нормы. В течение первого года с момента начала месячных цикл может быть нерегулярными. Это связано с гормональной перестройкой организма. Если менструальный цикл и далее остается нерегулярным, девушку необходимо обследовать и установить причину сбоя.</p>
             
               <table>
 								<thead>
