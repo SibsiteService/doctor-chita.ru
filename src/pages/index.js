@@ -14,6 +14,7 @@ import dnk_pic from '../assets/images/pic_6(1).jpg'
 import che_pic from '../assets/images/pic_8(1).jpg'
 import ber_pic from '../assets/images/pic_9(1).jpg'
 import gin_pic from '../assets/images/pic_2(1).jpg'
+import onko_pic from '../assets/images/pic_10(1).jpg'
 
 
 class Index extends React.Component {
@@ -110,12 +111,12 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/ginekologia">  
-                <img src={gin_pic} alt="" />
+              <a href="/onkologia">  
+                <img src={onko_pic} alt="" />
               </a>
               </span>
-              <Link to="/ginekologia">
-                <h3>Гинекология</h3>
+              <Link to="/onkologia">
+                <h3>Диагностика онкологии</h3>
               </Link>  
               </li>
               <li>

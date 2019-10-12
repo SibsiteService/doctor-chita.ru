@@ -38,7 +38,9 @@ class Generic extends React.Component {
 
         <div id="main">
           <section id="content" className="main">
+          <header class="major">
             <h2>Медицинские Анализы в партнерстве с лабораторией ГЕМОТЕСТ</h2>
+            </header>
             <p></p>
             <p></p>
           </section>
