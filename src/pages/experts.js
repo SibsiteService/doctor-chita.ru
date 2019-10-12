@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Header from '../components/Header'
+import Header from '../components/HeaderGeneric'
 import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 

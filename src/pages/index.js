@@ -9,12 +9,15 @@ import Nav from '../components/Nav'
 
 import uzi_pic from '../assets/images/pic_1(1).jpg'
 import end_pic from '../assets/images/pic_3(1).jpg'
+import rak_pic from '../assets/images/pic_4(1).jpg'
 import ana_pic from '../assets/images/pic_5(1).jpg'
 import dnk_pic from '../assets/images/pic_6(1).jpg'
 import che_pic from '../assets/images/pic_8(1).jpg'
 import ber_pic from '../assets/images/pic_9(1).jpg'
 import gin_pic from '../assets/images/pic_2(1).jpg'
 import onko_pic from '../assets/images/pic_10(1).jpg'
+import exp_pic from '../assets/images/pic_7(1).jpg'
+
 
 
 class Index extends React.Component {
@@ -139,7 +142,6 @@ class Index extends React.Component {
                 <h3>ДНК анализы на установление отцовства</h3>
                 </Link>
               </li>
-  
               <li>
               <span className="image">
               <a href="/check-up">
@@ -159,6 +161,26 @@ class Index extends React.Component {
               </span>
                 <Link to="/analisy">
                 <h3>Медицинские анализы</h3>
+                </Link>
+              </li>
+              <li>
+              <span className="image">
+                <a href="/raksheikimatki">
+                <img src={rak_pic} alt="" />
+                </a>
+              </span>
+                <Link to="/raksheikimatki">
+                <h3>Диагностика рака шейки матки</h3>
+                </Link>
+              </li>
+              <li>
+              <span className="image">
+                <a href="/experts">
+                <img src={exp_pic} alt="" />
+                </a>
+              </span>
+                <Link to="/experts">
+                <h3>Второе мнение в онкодиагностике</h3>
                 </Link>
               </li>
             </ul>

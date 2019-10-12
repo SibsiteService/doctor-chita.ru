@@ -39,10 +39,11 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
           <header class="major">
-            <h2>Медицинские Анализы в партнерстве с лабораторией ГЕМОТЕСТ</h2>
+            <h2>Медицинские анализы в партнерстве с лабораторией ГЕМОТЕСТ</h2>
             </header>
-            <p></p>
-            <p></p>
+            <a href="https://www.gemotest.ru/"  target="_blank" rel="noopener noreferrer" class="button fit">
+                  Узнать более подробно на сайте лаборатории Гемотест
+              </a>
           </section>
         </div>
       </Layout>
