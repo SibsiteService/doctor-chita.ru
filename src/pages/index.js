@@ -13,6 +13,8 @@ import ana_pic from '../assets/images/pic_5(1).jpg'
 import dnk_pic from '../assets/images/pic_6(1).jpg'
 import che_pic from '../assets/images/pic_8(1).jpg'
 import ber_pic from '../assets/images/pic_9(1).jpg'
+import gin_pic from '../assets/images/pic_2(1).jpg'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -34,7 +36,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet 
-        title="Ваш Доктор | Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, ДНК." 
+        title="Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, эндокринолог. - Ваш Доктор. Официальный представитель лаборатории Гемотест в Чите" 
         />
         <Helmet>
         <meta name="yandex-verification" content="2c6b2cd549700b18" />
@@ -78,6 +80,26 @@ class Index extends React.Component {
             <ul className="features">
               <li>
               <span className="image">
+              <a href="/ginekologia">  
+                <img src={gin_pic} alt="" />
+              </a>
+              </span>
+              <Link to="/ginekologia">
+                <h3>Гинекология</h3>
+              </Link>  
+              </li>
+              <li>
+              <span className="image">
+              <a href="/beremennost"> 
+                <img src={ber_pic} alt="" />
+              </a>   
+              </span>
+              <Link to="/beremennost">
+                <h3>Планирование беременности</h3>
+              </Link>
+              </li>
+              <li>
+              <span className="image">
               <a href="/uzi">  
                 <img src={uzi_pic} alt="" />
               </a>
@@ -88,13 +110,13 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/beremennost"> 
-                <img src={ber_pic} alt="" />
-              </a>   
+              <a href="/ginekologia">  
+                <img src={gin_pic} alt="" />
+              </a>
               </span>
-              <Link to="/beremennost">
-                <h3>ПЛАНИРОВАНИЕ БЕРЕМЕННОСТИ</h3>
-              </Link>
+              <Link to="/ginekologia">
+                <h3>Гинекология</h3>
+              </Link>  
               </li>
               <li>
               <span className="image">
@@ -103,7 +125,7 @@ class Index extends React.Component {
                 </a>
               </span>
                 <Link to="/endokrinologia">
-                <h3>ЭНДОКРИНОЛОГИЯ В ГИНЕКОЛОГИИ</h3>
+                <h3>Эндокринология в гинекологии</h3>
                 </Link>
               </li>
               <li>
@@ -113,7 +135,7 @@ class Index extends React.Component {
               </a>
               </span>
                 <Link to="/dnk">
-                <h3>ДНК АНАЛИЗЫ НА УСТАНОВЛЕНИЕ ОТЦОВСТВА</h3>
+                <h3>ДНК анализы на установление отцовства</h3>
                 </Link>
               </li>
   
@@ -124,7 +146,7 @@ class Index extends React.Component {
               </a> 
               </span>
               <Link to="/check-up">
-                <h3>КОМПЛЕКСНЫЕ ЧЕК-АП ОБСЛЕДОВАНИЯ</h3>
+                <h3>Комплексные чек-ап обследования</h3>
               </Link>
               </li>
               
@@ -135,13 +157,13 @@ class Index extends React.Component {
                 </a>
               </span>
                 <Link to="/analisy">
-                <h3>МЕДИЦИНСКИЕ АНАЛИЗЫ</h3>
+                <h3>Медицинские анализы</h3>
                 </Link>
               </li>
             </ul>
 
             <Link to="/prices"  target="_blank" rel="noopener noreferrer" class="button fit">
-                  ПОДРОБНЕЕ О ЦЕНАХ
+                  ОЗНАКОМИТЬСЯ С ЦЕНАМИ
             </Link>
             
           </section>
@@ -169,6 +191,7 @@ class Index extends React.Component {
             <strong> женские гормоны (лютеиновая фаза) – 540 рублей</strong>, 
             <strong> женские гормоны (фолликулярная фаза) – 2830 рублей</strong>. Консультация врача по результатам анализов – в подарок!
             </p>
+            <p>"Лаборатория Гемотест" и общество с ограниченной ответственностью "Ваш Доктор", работающие по договору коммерческой концессии, на основании Лицензии № ЛО-75-01-001494 от 22.01.2019 г., выданной Министерством здравоохранения Забайкальского края.</p>
           </section>
         </div>
       </Layout>

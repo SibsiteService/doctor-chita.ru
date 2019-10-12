@@ -9,6 +9,8 @@ const PricesTabs = props => (
           <Tab tabFor="horizontal-tab-two">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           УЗИ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Tab>
           <Tab tabFor="horizontal-tab-three">Эндокринология</Tab>
+          <Tab tabFor="horizontal-tab-four">Заключение экспертов</Tab>
+          <Tab tabFor="horizontal-tab-five">Гинекология</Tab>
           
           
           
@@ -704,6 +706,100 @@ const PricesTabs = props => (
                 </tbody>
 							</table>
 						
+        </div>
+        </TabPanel>
+        <TabPanel tabId="horizontal-tab-four">
+        <br/>
+        <div className="table-wrapper">
+        <h2>Как получить заключение эксперта? Второе мнение в онкодиагностке.</h2>
+              <table>
+								<thead>
+									<tr>
+                    <th>Цена за случай</th>
+                    <th>Вид экспертного заявления</th>										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+                    <td>5000₽</td>
+                    <td>Пересмотр ГИСТОЛОГИЧЕСКИХ препаратов <strong>врачами Лаборатории Гемотест</strong> методом консилиума (кроме костной ткани, ЦНС, гематологии)</td>
+									</tr>
+                  <tr>
+                    <td>7000₽</td>
+                    <td>Пересмотр ГИСТОЛОГИЧЕСКИХ препаратов <strong>ведущими российскими экспертами</strong></td>
+									</tr>
+                  <tr>
+                    <td>12000₽</td>
+                    <td>Комплексное иммуногистохимическое исследование биоптатов предстательной железы с оценкой экспрессии AMACR (a-methylacyl-CoA racemase, P504S), цитокератинов высокого молекулярного веса (34bE12), белка p63 (одного блока/столбика)</td>
+									</tr>     
+                </tbody>
+							</table>
+						
+        </div>
+        </TabPanel>
+        <TabPanel tabId="horizontal-tab-five">
+        <br/>
+        <div className="table-wrapper">
+        <h2>Гинеколог в Чите</h2>
+        <p>Женщинам в любом возрасте может понадобиться консультация гинеколога. Даже в случае, если нет причин для беспокойства, следует проводить осмотр минимум раз в год. Лучшим временем для посещения специалиста станут первые дни после менструации.</p>
+        <table>
+								<thead>
+									<tr>
+                    <th>Цена</th>
+                    <th>Наименование</th>
+                    <th>Для чего нужно это обследование</th>										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+                    <td>1200₽</td>
+                    <td>Прием врача гинеколога</td>
+                    <td>Врач соберет анамнез, жалобы, проведет осмотр</td>
+									</tr>
+                  <tr>
+                    <td>350₽</td>
+                    <td>Забор биоматериала для исследования на скрытые инфекции</td>
+                    <td>С помощью специальной кисти врач произведет забор биоматериала на исследование ,процедура почти безболезненная для вас</td>
+									</tr>
+                  <tr>
+                    <td>1200₽</td>
+                    <td>Ультразвуковое сканирование органов малого таза для женщин /предстательной железы для мужчин</td>
+                    <td>Позволяет выявить скрытую патологию органов малого таза, так же наличие опухолевого процесса</td>
+									</tr>   
+                  <tr>
+                    <td>4400₽</td>
+                    <td>ПЦР диагностика скрытой инфекции , 12 видов возбудителей:
+                        Candida albicans;<br />
+                        Chlamydia trachomatis;
+                        Gardnerella vaginalis; <br />
+                        Herpes Simplex Virus 1/2;
+                        Mycoplasma genitalium;<br />
+                        Mycoplasma hominis;
+                        Neisseria Gonorrhoeae;<br />
+                        Trichomonas vaginalis;
+                        Ureaplasma parvum;<br />
+                        Ureaplasma urealyticum;
+                        Human Papillomavirus высокого канцерогенного риска 16 и 18 тип.
+                    </td>
+                    <td>Урогенитальные заболевания протекают  незаметно<br /> и бессимптомно, но при этом наносят большой вред здоровью, могут вызывать бесплодие у женщин <br /> и хронический простатит у мужчин</td>
+									</tr>
+                  <tr>
+                    <td>450₽</td>
+                    <td>Мазок на микрофлору</td>
+                    <td>Позволяет выявить воспалительный процесс и нарушение микрофлоры</td>
+									</tr>
+                  <tr>
+                    <td>1000₽</td>
+                    <td>Прием врача, повторный гинеколога</td>
+                    <td>Интерпретация анализов, назначение лечения</td>
+									</tr>
+                  <tr>
+                    <td></td>
+                    <td>Скидка при заказе от 7000 ₽</td>
+                    <td>-15%</td>
+									</tr>
+                </tbody>
+							</table>
         </div>
         </TabPanel>
         

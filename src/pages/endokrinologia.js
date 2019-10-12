@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Header from '../components/Header'
+import Header from '../components/HeaderGeneric'
 import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 
@@ -28,7 +28,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Ваш Доктор | Эндокринология Чита. Что делать при нарушении менструального цикла?" />
+        <Helmet title="Эндокринология Чита. Что делать при нарушении менструального цикла? - Ваш Доктор, Гемотест Чита" />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -124,7 +124,7 @@ class Generic extends React.Component {
 									</tr>
                 </tbody>
 							</table>
-        <h2>Какие анализы следует сдать при наступлении Климакса?</h2>
+        <h2>АКЦИЯ 45+ <br /> Какие анализы следует сдать при наступлении Климакса?</h2>
         <p>Климакс - естественный биологический период в жизни женщины, который связан с угасанием функции яичников. Клинически проявляется в отсутствии менструаций.</p>      
               <table>
 								<thead>

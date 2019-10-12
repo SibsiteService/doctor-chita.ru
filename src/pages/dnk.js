@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Header from '../components/Header'
+import Header from '../components/HeaderGeneric'
 import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 
@@ -28,7 +28,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Ваш Доктор | Днк анализы на установление отцовства Чита" />
+        <Helmet title="Днк анализы на установление отцовства Чита - Ваш Доктор, Гемотест Чита" />
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
