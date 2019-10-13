@@ -28,7 +28,11 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Обследование на онкологию в Чите? Диагностика раковых заболеваний Чита - Ваш Доктор, Гемотест Чита"/>
+        <Helmet>
+        <title>Обследование на онкологию в Чите? Диагностика раковых заболеваний Чита - Ваш Доктор, Гемотест Чита</title>
+        <meta name="yandex-verification" content="2c6b2cd549700b18" />
+        <meta name="description" content="Регулярные обследования на онкологию помогут диагностировать возможные проблемы на ранних этапах. Ваш Доктор - официальный партнер лаборатории Гемотест в Чите."></meta>
+        </Helmet>
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
