@@ -42,7 +42,7 @@ class Generic extends React.Component {
             <h2>Медицинские анализы в партнерстве с лабораторией ГЕМОТЕСТ</h2>
             </header>
             <a href="https://www.gemotest.ru/"  target="_blank" rel="noopener noreferrer" class="button fit">
-                  Узнать более подробно на сайте лаборатории Гемотест
+                  Узнать более подробно
               </a>
           </section>
         </div>
