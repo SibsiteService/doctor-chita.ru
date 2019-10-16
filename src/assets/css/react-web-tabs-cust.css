@@ -14,12 +14,11 @@
 
 .rwt__tab {
 	background: transparent;
+	background-color: #ffffff !important;
+	color: #000 !important;
 	border: 0;
 	font-family: inherit;
 	font-size: inherit;
-	
-	 
-	
 	padding: 0rem 2rem;
 	transition: background 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
@@ -45,6 +44,8 @@
 	left: 0;
 	width: 100%;
 	border-bottom: 6px solid #008942;
+	background-color: #ffffff !important;
+	
 }
 
 .rwt__tablist[aria-orientation="vertical"] .rwt__tab[aria-selected="true"]:after {

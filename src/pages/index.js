@@ -116,16 +116,6 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/onkologia">  
-                <img src={onko_pic} alt="" />
-              </a>
-              </span>
-              <Link to="/onkologia">
-                <h3>Диагностика онкологии</h3>
-              </Link>  
-              </li>
-              <li>
-              <span className="image">
                 <a href="/endokrinologia">
                 <img src={end_pic} alt="" />
                 </a>
@@ -133,6 +123,16 @@ class Index extends React.Component {
                 <Link to="/endokrinologia">
                 <h3>Эндокринология в гинекологии</h3>
                 </Link>
+              </li>
+              <li>
+              <span className="image">
+              <a href="/onkologia">  
+                <img src={onko_pic} alt="" />
+              </a>
+              </span>
+              <Link to="/onkologia">
+                <h3>Диагностика онкологии</h3>
+              </Link>  
               </li>
               <li>
               <span className="image">
@@ -157,16 +157,6 @@ class Index extends React.Component {
               
               <li>
               <span className="image">
-                <a href="/analisy">
-                <img src={ana_pic} alt="" />
-                </a>
-              </span>
-                <Link to="/analisy">
-                <h3>Медицинские анализы</h3>
-                </Link>
-              </li>
-              <li>
-              <span className="image">
                 <a href="/raksheikimatki">
                 <img src={rak_pic} alt="" />
                 </a>
@@ -183,6 +173,16 @@ class Index extends React.Component {
               </span>
                 <Link to="/experts">
                 <h3>Второе мнение в онкодиагностике</h3>
+                </Link>
+              </li>
+              <li>
+              <span className="image">
+                <a href="/analisy">
+                <img src={ana_pic} alt="" />
+                </a>
+              </span>
+                <Link to="/analisy">
+                <h3>Медицинские анализы</h3>
                 </Link>
               </li>
             </ul>
@@ -205,7 +205,7 @@ class Index extends React.Component {
             выявлении проблем на ранних стадиях их появления. Компания «Гемотест» является лидером на рынке медицинских обследований в России. 
             Здесь применяются самые современные технологии в области исследования и диагностики. 
             Успешно выявляются даже генетические патологии. Очень многое о здоровье расскажет биохимический анализ. 
-            В <strong>скриннинговый комплекс за 290 рублей</strong> входит 8 основных показателей состояния почек, печени, уровня холестерина и железа.
+            В <strong>скриннинговый комплекс за 390 рублей</strong> входит 8 основных показателей состояния почек, печени, уровня холестерина и железа.
             Рекомендуется для профилактики мониторить появление в крови онкомаркеров – веществ, свидетельствующих о наличии патологических процессов.  
             Для диагностики аденомы и карциномы предстательной железы мужчинам по акции можно сдать <strong>ПСА свободный/ПСА общий всего за 690 рублей</strong>.
             Женщинам можно пройти <strong>цитологическое исследование соскобов шейки матки и цервикального канала всего за 2 250 рублей</strong>.
