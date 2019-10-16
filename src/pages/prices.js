@@ -34,7 +34,7 @@ class prices extends React.Component {
         <Helmet>
         <title>Цены на медицинские обследования в Чите - Ваш Доктор, Гемотест Чита</title>
         <meta name="yandex-verification" content="2c6b2cd549700b18" />
-        <meta name="description" content="Анализы и обследования в Чите дешего. Ваш Доктор - официальный партнер лаборатории Гемотест в Чите."></meta>
+        <meta name="description" content="Анализы и обследования в Чите дешево. Ваш Доктор - официальный партнер лаборатории Гемотест в Чите."></meta>
         </Helmet>
         <HeaderGeneric/>
         <Waypoint
