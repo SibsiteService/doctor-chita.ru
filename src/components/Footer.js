@@ -26,7 +26,7 @@ const Footer = props => (
         <dt>Адрес:</dt>
         <dd>ул. Шилова, д. 19, г. Чита, Забайкальский край</dd>
         <dt>Телефон:</dt>
-        <dd><a href="tel: 88005501313">8 (800) 550-13-13</a> (звонок бесплатный по всей России)</dd>
+        <dd><a href="tel: +78005501313">8 (800) 550-13-13</a> (звонок бесплатный по всей России)</dd>
         <dt>
         <a href="http://n207269.yclients.com" target="_blank" rel="noopener noreferrer" className="button">
             Предварительная запись на приём
