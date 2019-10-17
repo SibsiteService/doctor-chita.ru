@@ -10,16 +10,12 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-yandex-metrika`,
+      
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingId: '55704484',
-        webvisor: true,
-        trackHash: true,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        
+        id: "GTM-NSNGV84",
       },
+      
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.doctor-chita.ru',
