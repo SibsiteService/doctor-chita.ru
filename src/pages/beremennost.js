@@ -57,7 +57,6 @@ class Generic extends React.Component {
 						<table>
 								<thead>
 									<tr>
-                    <th>Цена</th>
                     <th>Название комплекса</th>
 										<th>Какие анализы включены</th>	
 									</tr>
@@ -65,7 +64,6 @@ class Generic extends React.Component {
 								<tbody>
                   
                   <tr>
-                    <td>17000₽</td>
                     <td>Будущие родители</td>
 										<td> 
 <li>Консультация и осмотр репродуктолога (для двоих)</li>
