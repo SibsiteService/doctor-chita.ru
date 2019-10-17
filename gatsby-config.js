@@ -10,7 +10,11 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
-      
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-148714105-3",
+      },
+        
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-NSNGV84",
