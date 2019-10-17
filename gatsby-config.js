@@ -15,6 +15,10 @@ module.exports = {
         trackingId: '55814263',
         webvisor: true,
         trackHash: true,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        
       },
       resolve: 'gatsby-plugin-robots-txt',
       options: {
