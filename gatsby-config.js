@@ -12,10 +12,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-yandex-metrika`,
       options: {
-        trackingId: '55704484',
+        trackingId: '55814263',
         webvisor: true,
         trackHash: true,
-        version: 2,
       },
       resolve: 'gatsby-plugin-robots-txt',
       options: {
