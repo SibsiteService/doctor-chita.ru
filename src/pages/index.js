@@ -46,6 +46,14 @@ class Index extends React.Component {
         дополнительное мнение экспертов об онкологии, ДНК анализы. 
         Ваш Доктор - официальный партнер лаборатории Гемотест в Чите. 
         У нас Вы сможете пройти весь спектр диагностики здоровья и узнать о Ваших болезнях на ранних этапах."></meta>
+        <script
+          dangerouslySetInnerHTML={{
+          __html: `
+              var name = 'world';
+                console.log('Hello ' + name);
+              `,
+            }}
+        />
         </Helmet>        
         <Header/>
         <Waypoint
