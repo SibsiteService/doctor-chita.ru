@@ -5,20 +5,20 @@ const Footer = props => (
   <footer id="footer">
     <section>
       <h2>Режим работы</h2>
-      <p>
+      <div>
         <strong>Забор крови на анализы:</strong>
       <ul>
         <li>Пн-Сб: с 7:30 до 14:30</li>
         <li>Воскресенье: выходной</li>
       </ul>
-      </p>
-      <p>
+      </div>
+      <div>
       <strong>Прием врача гинеколога и УЗИ диагностика:</strong>
       <ul>
         <li>Пн-Сб: с 7:30 до 19:00</li>
         <li>Воскресенье: выходной</li>
       </ul>
-      </p>
+      </div>
     </section>
     <section>
       <h2>Контактная информация</h2>

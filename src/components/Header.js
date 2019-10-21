@@ -16,7 +16,7 @@ const Header = (props) => (
         </p>
         <a href="http://n207269.yclients.com"  target="_blank" rel="noopener noreferrer" class="button fit">
                   ЗАПИСАТЬСЯ НА ПРИЕМ
-                </a>
+        </a>
     </header>
     
 )
