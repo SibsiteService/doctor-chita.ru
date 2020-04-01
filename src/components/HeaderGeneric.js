@@ -8,9 +8,10 @@ const HeaderGeneric = (props) => (
     <header id="header" className="alt">
         <span className="logo"><Link to="/"><img src={logo} alt="Ваш + Доктор | Лого" width="70%"/></Link></span>
         
-        <a href="http://n207269.yclients.com"  target="_blank" rel="noopener noreferrer" class="button fit">
+        <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top" class="button fit">
                   ЗАПИСАТЬСЯ НА ПРИЕМ
         </a>
+        <a>Для предварительной записи отправьте эл.письмо по адресу: <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top">analizy.chita@gmail.com</a></a>
     </header>
     
 )

@@ -14,9 +14,10 @@ const Header = (props) => (
         <br/>
         <span className="logo"><a href="https://www.gemotest.ru/"  target="_blank" rel="noopener noreferrer"><img src={gemotest} alt="Гемотест | Лого" width="30%"/></a></span>
         </p>
-        <a href="http://n207269.yclients.com"  target="_blank" rel="noopener noreferrer" class="button fit">
+        <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top" class="button fit">
                   ЗАПИСАТЬСЯ НА ПРИЕМ
         </a>
+        <a>Для предварительной записи отправьте эл.письмо по адресу: <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top">analizy.chita@gmail.com</a></a>
     </header>
     
 )
