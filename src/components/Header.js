@@ -14,9 +14,12 @@ const Header = (props) => (
         <br/>
         <span className="logo"><a href="https://www.gemotest.ru/"  target="_blank" rel="noopener noreferrer"><img src={gemotest} alt="Гемотест | Лого" width="30%"/></a></span>
         </p>
-        <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top" class="button fit">
-                  ЗАПИСАТЬСЯ НА ПРИЕМ
-        </a>
+        
+        <form action="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова">
+            <input type="submit" onclick="ym(55704484,'reachGoal','zapis-knopka' ); return true;" value="ЗАПИСАТЬСЯ НА ПРИЁМ" class="button fit" />
+        </form>     
+
+        
         <a>Для предварительной записи отправьте эл.письмо по адресу: <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top">analizy.chita@gmail.com</a></a>
     </header>
     
