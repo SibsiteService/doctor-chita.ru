@@ -181,8 +181,12 @@
 			color: _palette($p, fg);
 		}
 
-		input, select, textarea {
+		select {
 			color: _palette($p, fg-bold-sel);
+		}
+		
+		input, textarea {
+			color: #000000;
 		}
 
 		a {
