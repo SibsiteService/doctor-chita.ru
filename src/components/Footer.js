@@ -28,10 +28,6 @@ const Footer = props => (
         <dt>Телефон:</dt>
         <dd><a href="tel: +78005501313">8 (800) 550-13-13</a> (звонок бесплатный по всей России)</dd>
         <dt>
-        <dt>Эл.Почтa:</dt>
-        <dd><a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова">analizy.chita@gmail.com</a></dd>
-        </dt>
-        <dt>
         <Link to="/contactform">
         <a target="_blank" className="button">
             ЗАПИСАТЬСЯ НА ПРИЁМ

@@ -20,7 +20,7 @@ const Header = (props) => (
             ЗАПИСАТЬСЯ НА ПРИЁМ
         </a>
         </Link>
-        <a>Для предварительной записи отправьте эл.письмо по адресу: <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top">analizy.chita@gmail.com</a></a>
+        
     </header>
     
 )
