@@ -32,9 +32,11 @@ const Footer = props => (
         <dd><a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова">analizy.chita@gmail.com</a></dd>
         </dt>
         <dt>
-        <a href="mailto:analizy.chita@gmail.com?Subject=Запись%20на%20приём%20Гемотест%20на%20Шилова" target="_top" className="button">
-            Предварительная запись на приём
+        <Link to="/contactform">
+        <a target="_blank" className="button">
+            ЗАПИСАТЬСЯ НА ПРИЁМ
         </a>
+        </Link>
         </dt>
         
       </dl>
