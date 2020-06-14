@@ -1,4 +1,5 @@
 import { Link } from 'gatsby'
+import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
