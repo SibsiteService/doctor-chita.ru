@@ -18,7 +18,7 @@ import ber_pic from '../assets/images/pic_9(1).jpg'
 import gin_pic from '../assets/images/pic_2(1).jpg'
 import onko_pic from '../assets/images/pic_10(1).jpg'
 import exp_pic from '../assets/images/pic_7(1).jpg'
-
+import administrator from '../assets/images/administrator.jpg';
 
 
 class Index extends React.Component {
@@ -58,7 +58,8 @@ class Index extends React.Component {
         <div id="main">
         <section id="first" className="main special">
             <header className="major">
-              <h2>В Чите в честь открытия новой медицинской лаборатории предлагаются подарки и скидки на обследования!</h2>
+              <h2>В Чите в честь открытия нового медицинского центра предлагаются подарки и скидки на обследования!</h2>
+              <img src={administrator} alt="Ваш + Доктор | Гинеколог" width="80%"/>
             </header>
             <ul className="statistics">
               <li className="style1">
