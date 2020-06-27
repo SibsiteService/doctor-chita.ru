@@ -63,8 +63,10 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
+              <Link to="/uzi">  
                 <span className="icon fa-diamond"></span>
                 <strong>УЗИ</strong> высокой точности
+              </Link>
               </li>
               <li className="style2">
                 <span className="icon fa-folder-open-o"></span>
