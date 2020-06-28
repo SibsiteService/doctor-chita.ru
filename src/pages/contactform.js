@@ -46,7 +46,7 @@ class Generic extends React.Component {
         <br/>
 
         <h2>Для записи по телефону (УЗИ, Гинеколог, Планирование беременности): <a href="tel: +73022217815">217-815</a></h2>
-        
+
         <form action="https://formcarry.com/s/7ADRfDkypAkA" method="post">
             
           <div className="fields">
@@ -55,16 +55,8 @@ class Generic extends React.Component {
               <input type="text" name="ФИО" id="name" required/>
             </div>
             <div className="field">
-              <label htmlFor="email">Адрес электронной почты*</label>
-              <input type="email" name="Эл. Почта" id="email" required/>
-            </div>
-            <div className="field">
               <label htmlFor="tel">Номер Телефона*</label>
               <input type="tel" name="Телефон" id="tel" required/>
-            </div>
-            <div className="field">
-              <label htmlFor="message">Комментарий</label>
-              <textarea name="Комментарий" id="message" rows="4"></textarea>
             </div>
             <br/>
             <div class="g-recaptcha" data-sitekey="6LeLAgEVAAAAAJWQQ0-B7ExjGPmkE9TXDBu0goUx"></div>
