@@ -42,6 +42,10 @@ class Generic extends React.Component {
         <Nav sticky={this.state.stickyNav}/>
 
         <div id="main">
+        <br/>
+        <br/>
+
+        <h2>Для записи по телефону (УЗИ, Гинеколог, Планирование беременности): <a href="tel: +73022217815">217-815</a></h2>
         
         <form action="https://formcarry.com/s/7ADRfDkypAkA" method="post">
             
@@ -72,6 +76,7 @@ class Generic extends React.Component {
               <input type="hidden" name="_gotcha"></input>
             </li>
           </ul>
+          <br/>
         </form>
 
         </div>

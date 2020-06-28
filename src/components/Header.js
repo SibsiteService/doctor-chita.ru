@@ -21,7 +21,7 @@ const Header = (props) => (
         location="top"
         buttonText=""
         cookieName="Акция 1"
-        style={{ background: "#008942", position: "absolute", margin: "5px", width: "100%", height: "11%"}}
+        style={{ background: "#008942", position: "absolute", width: "100%", height: "11%"}}
         buttonStyle={{ background: "#008942", fontSize: "13px", padding: "0px 0px" }}
         expires={300}
         >
