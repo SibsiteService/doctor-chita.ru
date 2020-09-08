@@ -1,13 +1,18 @@
 import React from 'react'
 import logo from '../assets/images/logo-full.png';
 import { Link } from 'gatsby'
-import CookieConsent, { Cookies } from "react-cookie-consent";
 
+import { Slider } from 'infinite-react-carousel'
 
+import offer01 from '../assets/images/offer_01.png';
+import offer02 from '../assets/images/offer_02.png';
+import offer03 from '../assets/images/offer_03.png';
+import offer04 from '../assets/images/offer_04.png';
+import offer05 from '../assets/images/offer_05.png';
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <span className="logo"><br/><Link to="/"><img src={logo} alt="Ваш + Доктор | Лого" width="70%"/></Link></span>
+        <span className="logo"><br/><Link to="/"><img src={logo} alt="Ваш + Доктор | Лого" width="45%"/></Link></span>
         
       
             <Link 
@@ -16,17 +21,36 @@ const Header = (props) => (
                 ЗАПИСАТЬСЯ НА ПРИЁМ
             </a>
             </Link>
-
-        <CookieConsent 
-        location="top"
-        buttonText=""
-        cookieName="Акция 1"
-        style={{ background: "#008942", position: "absolute", width: "100%", height: "11%"}}
-        buttonStyle={{ background: "#008942", fontSize: "13px", padding: "0px 0px" }}
-        expires={300}
-        >
-         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.doctor-chita.ru/uzi" target="_blank" alt="Гинеколог + УЗИ" target="_blank">АКЦИЯ!</a> Приём Гинеколога + УЗИ 1175₽
-        </CookieConsent>
+            <Slider 
+        dots
+        autoplaySpeed='6000' 
+        autoplay>
+          <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+          <div>
+          <img src={offer01} alt="Ваш + Доктор | Скидки" width="100%"/>
+          </div>
+          </a>
+          <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+          <div>
+          <img src={offer02} alt="Ваш + Доктор | Скидки" width="100%"/>
+          </div>
+          </a>
+          <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+          <div>
+          <img src={offer03} alt="Ваш + Доктор | Скидки" width="100%"/>
+          </div>
+          </a>
+          <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+          <div>
+          <img src={offer04} alt="Ваш + Доктор | Скидки" width="100%"/>
+          </div>
+          </a>
+          <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+          <div>
+          <img src={offer05} alt="Ваш + Доктор | Скидки" width="100%"/>
+          </div>
+          </a>
+        </Slider>
           
     </header>
     

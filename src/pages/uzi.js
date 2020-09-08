@@ -2,10 +2,17 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Header from '../components/HeaderGeneric'
 import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
-import offer01 from '../assets/images/offer01.png';
+import Header from '../components/HeaderGeneric'
+
+
+import offer01 from '../assets/images/offer_01.png';
+import offer02 from '../assets/images/offer_02.png';
+import offer03 from '../assets/images/offer_03.png';
+import offer04 from '../assets/images/offer_04.png';
+import offer05 from '../assets/images/offer_05.png';
+
 
 class Generic extends React.Component {
   
@@ -33,6 +40,7 @@ class Generic extends React.Component {
         <meta name="yandex-verification" content="2c6b2cd549700b18" />
         <meta name="description" content="Где сделать УЗИ Чита? Ваш Доктор - официальный партнер лаборатории Гемотест в Чите."></meta>
         </Helmet>
+          
         <Header/>
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -45,11 +53,32 @@ class Generic extends React.Component {
             <header class="major">
             <h2>УЗИ в Чите</h2>
             </header>
+            <h2>Все виды ультразвуковой диагностики</h2>
+            <p>Выявить причину и назначить лечение поможет оборудование экспертного класса и расшифровка от опытных специалистов!</p>
             <br/>
-            <header class="major">
-            <img src={offer01} alt="Ваш + Доктор | Скидки" width="80%"/>
-            <h2>Скидка 30%</h2>
-            </header>
+            
+            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <img src={offer04} alt="Ваш + Доктор | УЗИ" width="100%"/>
+            <h2>АКЦИЯ ! УЗИ молочных желез с цветным доплеровским картированием + УЗИ щитовидной железы 990 рублей (вместо 1510 рублей)</h2>
+            </a>
+            
+            
+            
+            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <h2>АКЦИЯ ! Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ определения беременности 1900 рублей (вместо 2330 рублей )</h2>
+            </a>
+            
+            
+            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <img src={offer03} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <h2>АКЦИЯ ! Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ матки и придатков трансвагинального за 1175 рублей (вместо 1500 рублей )</h2>
+            </a>
+            
+            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <img src={offer05} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <h2>Прием (осмотр и консультация) врача акушера-гинеколога при планировании беременности + УЗИ за 1900 рублей (вместо 2330 рублей)</h2>
+            </a>
             <p>Ультразвуковое исследование является одним из наиболее популярных и эффективных методов современной диагностики. С помощью УЗИ можно определить болезни внутренних органов, наличие новообразований, воспалений и других нарушений на различных стадиях. Клиника состоит из профессиональных врачей, которые производят сверхточную и тщательную процедуру исследования. Каждый специалист клиники имеет соответствующую квалификацию, что гарантирует высокие результаты ультразвуковой диагностики. Также, наши доктора в ходе УЗИ применяют только передовое оборудование. Наши специалисты используют инновационный УЗИ-сканер экспертного класса Philips HD 11 XE. «RoyalPhilips», голландский производитель УЗИ-сканера, занимает лидирующую позицию в производстве медицинских приборов, способных улучшить качество жизни людей.</p>
             <p>
               Основными достоинствами сканера Philips HD 11 XE являются:
@@ -72,10 +101,11 @@ class Generic extends React.Component {
 									</tr>
 								</thead>
 								<tbody>
+                
                 <tr>
-                    <td>1175₽</td>
-										<td>Консультация гинеколога + УЗИ</td>
-                    <td>Акция</td>
+                    <td>2000₽</td>
+										<td>ЭхоКГ плода</td>
+                    <td></td>
 									</tr>
                   <tr>
                     <td>830₽</td>
@@ -93,17 +123,17 @@ class Generic extends React.Component {
                     <td>А04.20.002.02</td>
 									</tr>
                   <tr>
-                    <td>850₽</td>
+                    <td>1500₽</td>
 										<td>Ультразвуковое исследование в I триместре беременности (с 10 по 13 недели беременности)</td>
                     <td>A04.30.001.13</td>
 									</tr>
                   <tr>
-                    <td>1000₽</td>
+                    <td>1650₽</td>
 										<td>Ультразвуковое исследование в II триместре беременности  (с 14 по 27 недели беременности)</td>
                     <td>A04.30.001.14</td>
 									</tr>
                   <tr>
-                    <td>1200₽</td>
+                    <td>1800₽</td>
 										<td>Ультразвуковое исследование в III триместре беременности</td>
                     <td>A04.30.001.15</td>
 									</tr>

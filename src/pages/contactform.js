@@ -51,13 +51,18 @@ class Generic extends React.Component {
             
           <div className="fields">
             <div className="field">
+              <label htmlFor="tel">Номер Телефона*</label>
+              <input type="tel" name="Телефон" id="tel" required/>
+            </div>
+            <div className="field">
               <label htmlFor="name" required="">ФИО*</label>
               <input type="text" name="ФИО" id="name" required/>
             </div>
             <div className="field">
-              <label htmlFor="tel">Номер Телефона*</label>
-              <input type="tel" name="Телефон" id="tel" required/>
+              <label htmlFor="email">Электронная почта</label>
+              <input type="email" name="Электронная почта" id="email"/>
             </div>
+            
             <br/>
             <div class="g-recaptcha" data-sitekey="6LeLAgEVAAAAAJWQQ0-B7ExjGPmkE9TXDBu0goUx"></div>
           </div>
