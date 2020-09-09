@@ -6,9 +6,10 @@ import Header from '../components/HeaderGeneric'
 import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 import administrator from '../assets/images/administrator.jpg';
-import offer01 from '../assets/images/offer_01.png';
-import offer02 from '../assets/images/offer_02.png';
-import offer03 from '../assets/images/offer_03.png';
+
+import offer04 from '../assets/images/4.png';
+import offer01 from '../assets/images/1.png';
+import offer03 from '../assets/images/3.png';
 
 
 
@@ -55,18 +56,29 @@ class Generic extends React.Component {
             Однако в случае возникновения неудобств следует срочно обратиться ко врачу. Наиболее удобным для этого способом является запись к гинекологу через интернет. Вся процедура занимает несколько минут, и совершить ее можно в любом удобном для Вас месте.
             <br/>
             </p>
+            <header class="major">
+            <h2>АКЦИЯ!</h2>
+            </header>
             <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
             <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="100%"/>
             </a>
-            <h2>АКЦИЯ ! Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ матки и придатков трансвагинального за 1175 рублей (вместо 1500 рублей )</h2>
+            <h3>Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ определения беременности 1900 рублей (вместо 2330 рублей)</h3>
+            
+            <header class="major">
+            <h2>АКЦИЯ!</h2>
+            </header>
+            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <img src={offer04} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            </a>
+            <h3>Прием (осмотр и консультация) врача акушера-гинеколога при планировании беременности + УЗИ за 1900 рублей (вместо 2330 рублей)</h3>
+
+            <header class="major">
+            <h2>АКЦИЯ!</h2>
+            </header>
             <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
             <img src={offer03} alt="Ваш + Доктор | Гинеколог" width="100%"/>
             </a>
-            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <h2>АКЦИЯ ! Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ определения беременности 1900 рублей (вместо 2330 рублей )</h2>
-            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="100%"/>
-            </a>
-            <h2>АКЦИЯ ! ЭхоКГ плода во время беременности — 1500 р (вместо 2000 р)</h2>
+            <h3>ЭхоКГ плода во время беременности — 1500 р (вместо 2000 р)</h3>
             <p>
            Наиболее частой причиной обращения к гинекологу являются боли внизу живота. Существует масса причин их возникновения, которые могут условно разделяться на 2 группы: органические и функциональные. К первому типу относятся:
             <ul>
