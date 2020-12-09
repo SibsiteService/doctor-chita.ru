@@ -7,8 +7,8 @@ import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 
 
-import offer04 from '../assets/images/4.png';
-import offer03 from '../assets/images/3.png';
+import offer04 from '../assets/images/4.jpg';
+import offer03 from '../assets/images/3.jpg';
 
 
 class Generic extends React.Component {
