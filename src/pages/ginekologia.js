@@ -7,9 +7,9 @@ import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 import administrator from '../assets/images/administrator.jpg';
 
-import offer04 from '../assets/images/4.jpg';
-import offer01 from '../assets/images/1.jpg';
-import offer03 from '../assets/images/3.jpg';
+import offer04 from '../assets/images/4.png';
+import offer01 from '../assets/images/1.png';
+import offer03 from '../assets/images/3.png';
 
 
 

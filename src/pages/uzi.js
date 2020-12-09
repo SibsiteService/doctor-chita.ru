@@ -7,11 +7,11 @@ import { Waypoint } from 'react-waypoint'
 import Header from '../components/HeaderGeneric'
 
 
-import offer01 from '../assets/images/1.jpg';
-import offer02 from '../assets/images/2.jpg';
-import offer03 from '../assets/images/3.jpg';
-import offer04 from '../assets/images/4.jpg';
-import offer05 from '../assets/images/5.jpg';
+import offer01 from '../assets/images/1.png';
+import offer02 from '../assets/images/2.png';
+import offer03 from '../assets/images/3.png';
+import offer04 from '../assets/images/4.png';
+import offer05 from '../assets/images/5.png';
 
 
 class Generic extends React.Component {
