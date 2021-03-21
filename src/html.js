@@ -12,6 +12,17 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
+      </head>
+      <body {...props.bodyAttributes}>
+        {props.preBodyComponents}
+        <noscript key="noscript" id="gatsby-noscript">
+          This app works best with JavaScript enabled.
+        </noscript>
+        <div
+          key={`body`}
+          id="___gatsby"
+          dangerouslySetInnerHTML={{ __html: props.body }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -29,17 +40,6 @@ export default function HTML(props) {
             }}
         />
         <noscript><div><img src="https://mc.yandex.ru/watch/55704484" style={{position:'absolute',left:-9999+'px' }} alt="" /></div></noscript>
-      </head>
-      <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
-        <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
-        </noscript>
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
         {props.postBodyComponents}
       </body>
     </html>
