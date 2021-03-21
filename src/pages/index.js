@@ -90,9 +90,9 @@ class Index extends React.Component {
             <ul className="features">
               <li>
               <span className="image">
-              <a href="https://www.doctor-chita.ru/ginekologia">  
+              <Link to="/ginekologia">  
                 <img src={gin_pic} alt="" />
-              </a>
+                </Link> 
               </span>
               <Link to="/ginekologia">
                 <h3>Гинекология</h3>
@@ -100,9 +100,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="https://www.doctor-chita.ru/beremennost"> 
+              <Link to="/beremennost"> 
                 <img src={ber_pic} alt="" />
-              </a>   
+                </Link>  
               </span>
               <Link to="/beremennost">
                 <h3>Планирование беременности</h3>
@@ -110,9 +110,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="https://www.doctor-chita.ru/uzi">  
+              <Link to="/uzi">  
                 <img src={uzi_pic} alt="" />
-              </a>
+              </Link>
               </span>
               <Link to="/uzi">
                 <h3>УЗИ</h3>
@@ -120,9 +120,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="https://www.doctor-chita.ru/endokrinologia">
+              <Link to="/endokrinologia">
                 <img src={end_pic} alt="" />
-                </a>
+                </Link>
               </span>
                 <Link to="/endokrinologia">
                 <h3>Эндокринология в гинекологии</h3>
@@ -130,9 +130,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="https://www.doctor-chita.ru/onkologia">  
+              <Link to="/onkologia">  
                 <img src={onko_pic} alt="" />
-              </a>
+                </Link> 
               </span>
               <Link to="/onkologia">
                 <h3>Диагностика онкологии</h3>
@@ -140,9 +140,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="https://www.doctor-chita.ru/dnk">
+              <Link to="/dnk">
                 <img src={dnk_pic} alt="" />
-              </a>
+                </Link>
               </span>
                 <Link to="/dnk">
                 <h3>ДНК анализы на установление отцовства</h3>
@@ -150,9 +150,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="https://www.doctor-chita.ru/check-up">
+              <Link to="/check-up">
                 <img src={che_pic} alt="" />
-              </a> 
+                </Link> 
               </span>
               <Link to="/check-up">
                 <h3>Комплексные чек-ап обследования</h3>
