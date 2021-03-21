@@ -38,27 +38,27 @@ const Header = (props) => (
             >
                 <a href="https://www.doctor-chita.ru/ginekologia" target="_blank">
                 <div>
-                <img src={offer01} alt="Ваш + Доктор | Скидки" width="100%"/>
+                <img src={offer01} alt="Ваш + Доктор | Скидки" width="90%"/>
                 </div>
                 </a>
                 <a href="https://www.doctor-chita.ru/beremennost" target="_blank">
                 <div>
-                <img src={offer02} alt="Ваш + Доктор | Скидки" width="100%"/>
+                <img src={offer02} alt="Ваш + Доктор | Скидки" width="90%"/>
                 </div>
                 </a>
                 <a href="https://www.doctor-chita.ru/beremennost" target="_blank">
                 <div>
-                <img src={offer03} alt="Ваш + Доктор | Скидки" width="100%"/>
+                <img src={offer03} alt="Ваш + Доктор | Скидки" width="90%"/>
                 </div>
                 </a>
                 <a href="https://www.doctor-chita.ru/uzi" target="_blank">
                 <div>
-                <img src={offer04} alt="Ваш + Доктор | Скидки" width="100%"/>
+                <img src={offer04} alt="Ваш + Доктор | Скидки" width="90%"/>
                 </div>
                 </a>
                 <a href="https://www.doctor-chita.ru/uzi" target="_blank">
                 <div>
-                <img src={offer05} alt="Ваш + Доктор | Скидки" width="100%"/>
+                <img src={offer05} alt="Ваш + Доктор | Скидки" width="90%"/>
                 </div>
                 </a>
             </Slider>

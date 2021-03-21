@@ -59,7 +59,7 @@ class Index extends React.Component {
         <section id="first" className="main special">
             <header className="major">
               <h2>В Чите в честь открытия нового медицинского центра предлагаются подарки и скидки на обследования!</h2>
-              <img src={administrator} alt="Ваш + Доктор | Гинеколог" width="80%"/>
+              
             </header>
             <ul className="statistics">
               <li className="style1">
@@ -90,7 +90,7 @@ class Index extends React.Component {
             <ul className="features">
               <li>
               <span className="image">
-              <a href="/ginekologia">  
+              <a href="https://www.doctor-chita.ru/ginekologia">  
                 <img src={gin_pic} alt="" />
               </a>
               </span>
@@ -100,7 +100,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/beremennost"> 
+              <a href="https://www.doctor-chita.ru/beremennost"> 
                 <img src={ber_pic} alt="" />
               </a>   
               </span>
@@ -110,7 +110,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/uzi">  
+              <a href="https://www.doctor-chita.ru/uzi">  
                 <img src={uzi_pic} alt="" />
               </a>
               </span>
@@ -120,7 +120,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="/endokrinologia">
+                <a href="https://www.doctor-chita.ru/endokrinologia">
                 <img src={end_pic} alt="" />
                 </a>
               </span>
@@ -130,7 +130,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/onkologia">  
+              <a href="https://www.doctor-chita.ru/onkologia">  
                 <img src={onko_pic} alt="" />
               </a>
               </span>
@@ -140,7 +140,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/dnk">
+              <a href="https://www.doctor-chita.ru/dnk">
                 <img src={dnk_pic} alt="" />
               </a>
               </span>
@@ -150,7 +150,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-              <a href="/check-up">
+              <a href="https://www.doctor-chita.ru/check-up">
                 <img src={che_pic} alt="" />
               </a> 
               </span>
@@ -171,7 +171,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="/experts">
+                <a href="https://www.doctor-chita.ru/experts">
                 <img src={exp_pic} alt="" />
                 </a>
               </span>
@@ -181,7 +181,7 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="/analisy">
+                <a href="https://www.doctor-chita.ru/analisy">
                 <img src={ana_pic} alt="" />
                 </a>
               </span>
@@ -198,30 +198,7 @@ class Index extends React.Component {
           </section>
 
           
-            <section id="third" className="main special">
-            <header className="major">
-              <h2>Для нас важны люди, которым мы помогаем быть здоровыми!</h2>
-            </header>
-            <p className="content">
-            Мы приглашаем Вас на обследование в новую медицинскую лабораторию под известным брендом 
-            <strong> «Гемотест»</strong> по адресу <strong>ул. Шилова, 19</strong>. 
-            Предоставляются скидки на важные исследования при планировании беременности и 
-            выявлении проблем на ранних стадиях их появления. Компания «Гемотест» является лидером на рынке медицинских обследований в России. 
-            Здесь применяются самые современные технологии в области исследования и диагностики. 
-            Успешно выявляются даже генетические патологии. Очень многое о здоровье расскажет биохимический анализ. 
-            В <strong>скриннинговый комплекс за 390 рублей</strong> входит 8 основных показателей состояния почек, печени, уровня холестерина и железа.
-            Рекомендуется для профилактики мониторить появление в крови онкомаркеров – веществ, свидетельствующих о наличии патологических процессов.  
-            Для диагностики аденомы и карциномы предстательной железы мужчинам по акции можно сдать <strong>ПСА свободный/ПСА общий всего за 690 рублей</strong>.
-            Женщинам можно пройти <strong>цитологическое исследование соскобов шейки матки и цервикального канала всего за 2 250 рублей</strong>.
-            Очень важно ответственно и осознанно подходить к планированию беременности, чтобы выносить и родить здорового малыша. 
-            Поэтому предлагаются специальные льготные цены на обязательные обследования для тех, кто планирует забеременеть. 
-            Например, <strong>цикл анализов на TORCH-инфекции</strong>, которыми может заразиться плод во время беременности и при прохождении родовых путей, <strong>обойдется в 2950 рублей</strong>. 
-            <strong> Общеклинические показатели можно сдать за 2916 рублей</strong>. Цервикальный скринниг, <strong>ИППП (прегравидарная подготовка к беременности) – 2420 рублей</strong>, 
-            <strong> женские гормоны (лютеиновая фаза) – 540 рублей</strong>, 
-            <strong> женские гормоны (фолликулярная фаза) – 2830 рублей</strong>. Консультация врача по результатам анализов – в подарок!
-            </p>
-            <p>"Лаборатория Гемотест" и общество с ограниченной ответственностью "Ваш Доктор", работающие по договору коммерческой концессии, на основании Лицензии № ЛО-75-01-001494 от 22.01.2019 г., выданной Министерством здравоохранения Забайкальского края.</p>
-          </section>
+            
         </div>
       </Layout>
     )
