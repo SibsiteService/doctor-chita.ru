@@ -161,9 +161,9 @@ class Index extends React.Component {
               
               <li>
               <span className="image">
-                <a href="/raksheikimatki">
+              <Link to="/raksheikimatki">
                 <img src={rak_pic} alt="" />
-                </a>
+                </Link>
               </span>
                 <Link to="/raksheikimatki">
                 <h3>Диагностика рака шейки матки</h3>
@@ -171,9 +171,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="https://www.doctor-chita.ru/experts">
+              <Link to="/experts">
                 <img src={exp_pic} alt="" />
-                </a>
+                </Link>
               </span>
                 <Link to="/experts">
                 <h3>Второе мнение в онкодиагностике</h3>
@@ -181,9 +181,9 @@ class Index extends React.Component {
               </li>
               <li>
               <span className="image">
-                <a href="https://www.doctor-chita.ru/analisy">
+              <Link to="/analisy">
                 <img src={ana_pic} alt="" />
-                </a>
+                </Link>
               </span>
                 <Link to="/analisy">
                 <h3>Медицинские анализы</h3>
