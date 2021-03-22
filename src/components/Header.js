@@ -33,34 +33,34 @@ const Header = (props) => (
           
             <Slider 
             dots
-            autoplaySpeed='3000' 
+            autoplaySpeed='3700' 
             autoplay
             >
-                <a href="https://www.doctor-chita.ru/ginekologia" target="_blank">
+                <Link to="/ginekologia">
                 <div>
-                <img src={offer01} alt="Ваш + Доктор | Скидки" width="90%"/>
+                <img src={offer01} alt="Ваш + Доктор | Скидки" width="80%"/>
                 </div>
-                </a>
-                <a href="https://www.doctor-chita.ru/beremennost" target="_blank">
+                </Link>
+                <Link to="/beremennost">
                 <div>
-                <img src={offer02} alt="Ваш + Доктор | Скидки" width="90%"/>
+                <img src={offer02} alt="Ваш + Доктор | Скидки" width="80%"/>
                 </div>
-                </a>
-                <a href="https://www.doctor-chita.ru/beremennost" target="_blank">
+                </Link>
+                <Link to="/beremennost">
                 <div>
-                <img src={offer03} alt="Ваш + Доктор | Скидки" width="90%"/>
+                <img src={offer03} alt="Ваш + Доктор | Скидки" width="80%"/>
                 </div>
-                </a>
-                <a href="https://www.doctor-chita.ru/uzi" target="_blank">
+                </Link>
+                <Link to="/uzi">
                 <div>
-                <img src={offer04} alt="Ваш + Доктор | Скидки" width="90%"/>
+                <img src={offer04} alt="Ваш + Доктор | Скидки" width="80%"/>
                 </div>
-                </a>
-                <a href="https://www.doctor-chita.ru/uzi" target="_blank">
+                </Link>
+                <Link to="/uzi">
                 <div>
-                <img src={offer05} alt="Ваш + Доктор | Скидки" width="90%"/>
+                <img src={offer05} alt="Ваш + Доктор | Скидки" width="80%"/>
                 </div>
-                </a>
+                </Link>
             </Slider>
             
     </header>
