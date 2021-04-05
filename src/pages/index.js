@@ -41,6 +41,7 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet>
+        <img src="https://www.facebook.com/tr?id=417673439442859&ev=PageView&noscript=1" height="1" width="1" style="display:none"/>
         <title>Анализы и УЗИ в Чите. Гинеколог, комплексные обследования, эндокринолог. - Ваш Доктор. Официальный представитель лаборатории Гемотест в Чите</title>
         <meta name="yandex-verification" content="2c6b2cd549700b18" />
         <meta name="description" content="Мы предлагаем широкий спектр медицинских услуг: сдача всех типов анализов, прием гинеколога, УЗИ, комплексные обследование, 

@@ -32,6 +32,7 @@ class prices extends React.Component {
     return (
       <Layout>
         <Helmet>
+        <img src="https://www.facebook.com/tr?id=417673439442859&ev=PageView&noscript=1" height="1" width="1" style="display:none"/>
         <title>Цены на медицинские обследования в Чите - Ваш Доктор, Гемотест Чита</title>
         <meta name="yandex-verification" content="2c6b2cd549700b18" />
         <meta name="description" content="Анализы и обследования в Чите дешево. Ваш Доктор - официальный партнер лаборатории Гемотест в Чите."></meta>

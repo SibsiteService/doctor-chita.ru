@@ -33,6 +33,7 @@ class Generic extends React.Component {
     return (
       <Layout>
         <Helmet>
+        <img src="https://www.facebook.com/tr?id=417673439442859&ev=PageView&noscript=1" height="1" width="1" style="display:none"/>
         <title>Планирование ребенка Чита. Какие анализы нужно сдавать будущим родителям? - Ваш Доктор, Гемотест Чита</title>
         <meta name="yandex-verification" content="2c6b2cd549700b18" />
         <meta name="description" content="Что делать при планировании ребенка в Чите? Пройти необходимое комплексное обследование Вы можете в клинике Ваш Доктор Чита. Ваш Доктор - официальный партнер лаборатории Гемотест в Чите."></meta>
