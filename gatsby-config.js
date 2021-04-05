@@ -7,10 +7,16 @@ module.exports = {
     siteUrl: "https://www.doctor-chita.ru",
   },
   plugins: [
+    'gatsby-plugin-facebook-pixel',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-modal-routing`,
+    'gatsby-plugin-modal-routing',
+    
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "417673439442859",
+      },
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-148714105-3",
