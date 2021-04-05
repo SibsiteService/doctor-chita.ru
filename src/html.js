@@ -39,7 +39,7 @@ export default function HTML(props) {
 }}
 />
 <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=417673439442859&ev=PageView&noscript=1"
+  src="https://www.facebook.com/tr?id=417673439442859"
 /></noscript>
 
         <script
