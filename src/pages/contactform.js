@@ -61,7 +61,7 @@ class Generic extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="email">Электронная почта</label>
-              <input type="email" name="Электронная почта" id="email"/>
+              <input type="email" name="ЭлПочта" id="ЭлПочта"/>
             </div>
             
             <br/>
