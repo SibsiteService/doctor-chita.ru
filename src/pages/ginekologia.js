@@ -61,7 +61,7 @@ class Generic extends React.Component {
             <h3>УЗИ молочных желез с цветным доплеровским картированием + УЗИ щитовидной железы 999 рублей (вместо 1510 рублей)</h3>
             </header>
             <Link to="/contactform">
-            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="70%"/>
+            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="95%"/>
             </Link>
 
             <header class="major">
@@ -69,7 +69,7 @@ class Generic extends React.Component {
             <h3>Первичный приём + УЗИ матки трансабдоминальное, трансвагинальное за 2990 (вместо 3550).</h3>
             
             <Link to="/contactform">
-            <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="70%"/>
+            <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="95%"/>
             </Link>
             </header>
             
