@@ -56,17 +56,17 @@ class Generic extends React.Component {
             <h2>АКЦИЯ!</h2>
             <h3>Первичный приём + УЗИ матки трансабдоминальное, трансвагинальное за 2990 (вместо 3550).</h3>
             
-            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <Link to="/contactform">
             <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="70%"/>
-            </a>
+            </Link>
             </header>
             <header class="major">
             <h2>АКЦИЯ "Комплексное УЗИ обследование для женщин"!</h2>
             <h3>УЗИ малого таза трансабдоминально, трансвагинально + УЗИ молочных желез + УЗИ щитовидной железы за 3590 (вместо 4000).</h3>
             
-            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
+            <Link to="/contactform">
             <img src={offer03} alt="Ваш + Доктор | Гинеколог" width="70%"/>
-            </a>
+            </Link>
             </header>
             
             <br/>
