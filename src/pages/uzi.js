@@ -7,11 +7,10 @@ import { Waypoint } from 'react-waypoint'
 import Header from '../components/HeaderGeneric'
 
 
-import offer01 from '../assets/images/1.png';
-import offer02 from '../assets/images/2.png';
-import offer03 from '../assets/images/3.png';
-import offer04 from '../assets/images/4.png';
-import offer05 from '../assets/images/5.png';
+import offer03 from '../assets/images/3.gif';
+import offer02 from '../assets/images/2.gif';
+
+
 
 
 class Generic extends React.Component {
@@ -61,42 +60,24 @@ class Generic extends React.Component {
             
             <header class="major">
             <h2>АКЦИЯ!</h2>
-            <h3>УЗИ молочных желез с цветным доплеровским картированием + УЗИ щитовидной железы 990 рублей (вместо 1510 рублей)</h3>
+            <h3>УЗИ молочных желез с цветным доплеровским картированием + УЗИ щитовидной железы 999 рублей (вместо 1510 рублей)</h3>
             </header>
             <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="70%"/>
             </a>
             
             
             
             
             <header class="major">
-            <h2>АКЦИЯ!</h2>
-            <h3>Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ определения беременности 1900 рублей (вместо 2330 рублей)</h3>
-            </header>
-            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="100%"/>
-            </a>
+            <h2>АКЦИЯ "Комплексное УЗИ обследование для женщин"!</h2>
+            <h3>УЗИ малого таза трансабдоминально, трансвагинально + УЗИ молочных желез + УЗИ щитовидной железы за 3590 (вместо 4000).</h3>
             
-
-
-            <header class="major">
-            <h2>АКЦИЯ!</h2>
-            <h3>Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ матки и придатков трансвагинального за 1175 рублей (вместо 1500 рублей)</h3>
-            </header>
             <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer05} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <img src={offer03} alt="Ваш + Доктор | Гинеколог" width="70%"/>
             </a>
-            
-
-
-            <header class="major">
-            <h2>АКЦИЯ!</h2>
-            <h3>Прием (осмотр и консультация) врача акушера-гинеколога при планировании беременности + УЗИ за 1900 рублей (вместо 2330 рублей)</h3>
             </header>
-            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer04} alt="Ваш + Доктор | Гинеколог" width="100%"/>
-            </a>
+        
             
             
       

@@ -7,9 +7,8 @@ import Nav from '../components/NavGeneric'
 import { Waypoint } from 'react-waypoint'
 import administrator from '../assets/images/administrator.jpg';
 
-import offer04 from '../assets/images/4.png';
-import offer01 from '../assets/images/1.png';
-import offer03 from '../assets/images/3.png';
+import offer01 from '../assets/images/1.gif';
+import offer02 from '../assets/images/2.gif';
 
 
 
@@ -59,29 +58,20 @@ class Generic extends React.Component {
             </p>
             <header class="major">
             <h2>АКЦИЯ!</h2>
-            <h3>Прием (осмотр и консультация) врача акушера-гинеколога первичный + проведение УЗИ определения беременности 1900 рублей (вместо 2330 рублей)</h3>
+            <h3>УЗИ молочных желез с цветным доплеровским картированием + УЗИ щитовидной железы 999 рублей (вместо 1510 рублей)</h3>
             </header>
             <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <img src={offer02} alt="Ваш + Доктор | Гинеколог" width="70%"/>
             </a>
-            
-            
-            <header class="major">
-            <h2>АКЦИЯ!</h2>
-            <h3>Прием (осмотр и консультация) врача акушера-гинеколога при планировании беременности + УЗИ за 1900 рублей (вместо 2330 рублей)</h3>
-            </header>
-            <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer04} alt="Ваш + Доктор | Гинеколог" width="100%"/>
-            </a>
-            
 
             <header class="major">
             <h2>АКЦИЯ!</h2>
-            <h3>ЭхоКГ плода во время беременности — 1500 р (вместо 2000 р)</h3>
-            </header>
+            <h3>Первичный приём + УЗИ матки трансабдоминальное, трансвагинальное за 2990 (вместо 3550).</h3>
+            
             <a href="https://www.doctor-chita.ru/contactform/" target="_blank">
-            <img src={offer03} alt="Ваш + Доктор | Гинеколог" width="100%"/>
+            <img src={offer01} alt="Ваш + Доктор | Гинеколог" width="70%"/>
             </a>
+            </header>
             
             <p>
            Наиболее частой причиной обращения к гинекологу являются боли внизу живота. Существует масса причин их возникновения, которые могут условно разделяться на 2 группы: органические и функциональные. К первому типу относятся:
