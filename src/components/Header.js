@@ -7,6 +7,7 @@ import { Slider } from 'infinite-react-carousel'
 import offer01 from '../assets/images/offer_01.png';
 import offer02 from '../assets/images/offer_02.png';
 import offer04 from '../assets/images/offer_04.png';
+import offer05 from '../assets/images/offer_05.png';
 
 
 
@@ -35,6 +36,11 @@ const Header = (props) => (
             autoplaySpeed='3700' 
             autoplay
             >
+                <Link to="/contactform">
+                <div>
+                <img src={offer05} alt="Ваш + Доктор | Скидки" width="80%"/>
+                </div>
+                </Link>
                 <Link to="/ginekologia">
                 <div>
                 <img src={offer01} alt="Ваш + Доктор | Скидки" width="80%"/>
@@ -50,6 +56,7 @@ const Header = (props) => (
                 <img src={offer04} alt="Ваш + Доктор | Скидки" width="80%"/>
                 </div>
                 </Link>
+                
                 
             </Slider>
             
